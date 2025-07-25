@@ -1,0 +1,678 @@
+Lost field SourceName, chinadns-ng
+Lost field LicenseFiles, LICENSE
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, https://github.com/zfl9/chinadns-ng
+Lost field Installed-Size, 614400
+Lost field SourceName, dns2socks
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, http://dns2socks.sourceforge.net/
+Lost field Installed-Size, 40960
+Lost field SourceName, geoview
+Lost field LicenseFiles, LICENSE
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, https://github.com/snowie2000/geoview
+Lost field Installed-Size, 6246400
+Lost field SourceName, hysteria
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, https://github.com/apernet/hysteria
+Lost field Installed-Size, 19927040
+Lost field SourceName, ipt2socks
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, https://github.com/zfl9/ipt2socks
+Lost field Installed-Size, 81920
+Lost field SourceName, luci-app-passwall
+Lost field SourceDateEpoch, 1752568385
+Lost field URL, https://github.com/openwrt/luci
+Lost field Installed-Size, 3184640
+Lost field SourceName, luci-app-passwall
+Lost field SourceDateEpoch, 1752568385
+Lost field Installed-Size, 40960
+Lost field SourceName, luci-app-openlist2
+Lost field SourceDateEpoch, 1753036836
+Lost field URL, https://github.com/openwrt/luci
+Lost field Installed-Size, 30720
+Lost field SourceName, luci-app-store
+Lost field SourceDateEpoch, 1750433807
+Lost field URL, https://github.com/openwrt/luci
+Lost field Installed-Size, 389120
+Lost field SourceName, luci-app-sunpanel
+Lost field SourceDateEpoch, 1746977701
+Lost field URL, https://github.com/openwrt/luci
+Lost field Installed-Size, 3399680
+Lost field SourceName, luci-app-unishare
+Lost field SourceDateEpoch, 1747667964
+Lost field URL, https://github.com/openwrt/luci
+Lost field Installed-Size, 30720
+Lost field SourceName, luci-app-v2ray-server
+Lost field SourceDateEpoch, 1748533013
+Lost field URL, https://github.com/openwrt/luci
+Lost field Installed-Size, 71680
+Lost field SourceName, luci-app-openlist2
+Lost field SourceDateEpoch, 1753036836
+Lost field Installed-Size, 10240
+Lost field SourceName, luci-lib-taskd
+Lost field SourceDateEpoch, 1750865876
+Lost field URL, https://github.com/openwrt/luci
+Lost field Installed-Size, 40960
+Lost field SourceName, luci-lib-xterm
+Lost field SourceDateEpoch, 1746977701
+Lost field URL, https://github.com/openwrt/luci
+Lost field Installed-Size, 368640
+Lost field SourceName, microsocks
+Lost field LicenseFiles, COPYING
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, https://github.com/rofl0r/microsocks
+Lost field Installed-Size, 30720
+Lost field SourceName, naiveproxy
+Lost field LicenseFiles, LICENSE
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, https://github.com/klzgrad/naiveproxy
+Lost field Installed-Size, 7116800
+Lost field SourceName, openlist2
+Lost field SourceDateEpoch, 1753419287
+Lost field URL, https://openlist.team/
+Lost field Installed-Size, 19834880
+Lost field SourceName, shadow-tls
+Lost field LicenseFiles, LICENSE
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, https://github.com/ihciah/shadow-tls
+Lost field Installed-Size, 3799040
+Lost field SourceName, shadowsocks-rust
+Lost field LicenseFiles, LICENSE
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, https://github.com/shadowsocks/shadowsocks-rust
+Lost field Installed-Size, 9482240
+Lost field SourceName, shadowsocks-rust
+Lost field LicenseFiles, LICENSE
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, https://github.com/shadowsocks/shadowsocks-rust
+Lost field Installed-Size, 7680000
+Lost field SourceName, shadowsocksr-libev
+Lost field LicenseFiles, LICENSE
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, https://github.com/shadowsocksrr/shadowsocksr-libev
+Lost field Installed-Size, 143360
+Lost field SourceName, shadowsocksr-libev
+Lost field LicenseFiles, LICENSE
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, https://github.com/shadowsocksrr/shadowsocksr-libev
+Lost field Installed-Size, 133120
+Lost field SourceName, shadowsocksr-libev
+Lost field LicenseFiles, LICENSE
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, https://github.com/shadowsocksrr/shadowsocksr-libev
+Lost field Installed-Size, 153600
+Lost field SourceName, simple-obfs
+Lost field LicenseFiles, COPYING LICENSE
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, https://github.com/shadowsocks/simple-obfs
+Lost field Installed-Size, 81920
+Lost field SourceName, sing-box
+Lost field LicenseFiles, LICENSE
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, https://sing-box.sagernet.org
+Lost field Installed-Size, 32245760
+Lost field SourceName, sunpanel
+Lost field SourceDateEpoch, 1744764373
+Lost field URL, https://sun-panel-doc.enianteam.com/
+Lost field Installed-Size, 24832000
+Lost field SourceName, taskd
+Lost field SourceDateEpoch, 1744764373
+Lost field Installed-Size, 20480
+Lost field SourceName, tcping
+Lost field LicenseFiles, license.txt
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, https://github.com/jlyo/tcping
+Lost field Installed-Size, 20480
+Lost field SourceName, trojan-plus
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, https://github.com/Trojan-Plus-Group/trojan-plus
+Lost field Installed-Size, 1064960
+Lost field SourceName, tuic-client
+Lost field LicenseFiles, LICENSE
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, https://github.com/EAimTY/tuic/
+Lost field Installed-Size, 2334720
+Lost field SourceName, unishare
+Lost field SourceDateEpoch, 1747928226
+Lost field Installed-Size, 20480
+Lost field SourceName, v2ray-geodata
+Lost field LicenseFiles, LICENSE
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, https://www.v2fly.org
+Lost field Installed-Size, 19722240
+Lost field SourceName, v2ray-geodata
+Lost field LicenseFiles, LICENSE
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, https://www.v2fly.org
+Lost field Installed-Size, 2334720
+Lost field SourceName, v2ray-plugin
+Lost field LicenseFiles, LICENSE
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, https://github.com/teddysun/v2ray-plugin
+Lost field Installed-Size, 16721920
+Lost field SourceName, webdav2
+Lost field LicenseFiles, LICENSE
+Lost field SourceDateEpoch, 1744904379
+Lost field URL, https://github.com/hacdias/webdav
+Lost field Installed-Size, 10188800
+Lost field SourceName, Xray-core
+Lost field LicenseFiles, LICENSE
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, https://xtls.github.io
+Lost field Installed-Size, 30238720
+Lost field SourceName, xray-plugin
+Lost field LicenseFiles, LICENSE
+Lost field SourceDateEpoch, 1752382024
+Lost field URL, https://github.com/teddysun/xray-plugin
+Lost field Installed-Size, 19517440
+Package: chinadns-ng
+Version: 2025.06.20-r1
+Depends: libc
+Section: net
+Architecture: x86_64
+Maintainer: sbwml <admin@cooluc.com>
+MD5Sum: 1ffc48512c1dd2104a9fad6ab2759214
+Size: 284573
+Filename: chinadns-ng_2025.06.20-r1_x86_64.ipk
+Source: feeds/passwall_packages/chinadns-ng
+Description: ChinaDNS next generation, refactoring with epoll and ipset.
+License: AGPL-3.0-only
+
+
+Package: dns2socks
+Version: 2.1-r2
+Depends: libc, libpthread
+Section: net
+Architecture: x86_64
+Maintainer: ghostmaker
+MD5Sum: 13879194bb2604d808fbf7c0a5ad0c66
+Size: 11126
+Filename: dns2socks_2.1-r2_x86_64.ipk
+Source: feeds/passwall_packages/dns2socks
+Description: This is a command line utility to resolve DNS requests via
+License: BSD-3-Clause
+
+
+Package: geoview
+Version: 0.1.10-r1
+Depends: libc
+Section: net
+Architecture: x86_64
+Maintainer: snowie2000
+MD5Sum: 11c5de7aaaad58db88e7ecc9460e60e6
+Size: 2553707
+Filename: geoview_0.1.10-r1_x86_64.ipk
+Source: feeds/passwall_packages/geoview
+Description: geoview is a handy tool to extract useful information from geo* files.
+License: Apache-2.0
+
+
+Package: hysteria
+Version: 2.6.2-r1
+Depends: libc, ca-bundle
+Section: net
+Architecture: x86_64
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+MD5Sum: 269e4d663713f03bf63aa21b56666dfe
+Size: 7535384
+Filename: hysteria_2.6.2-r1_x86_64.ipk
+Source: feeds/passwall_packages/hysteria
+Description: Hysteria is a feature-packed network utility optimized for networks
+License: MIT
+
+
+Package: ipt2socks
+Version: 1.1.4-r3
+Depends: libc, libpthread
+Section: net
+Architecture: x86_64
+MD5Sum: e274cc27bf5b7d29182560d3690d2273
+Size: 27262
+Filename: ipt2socks_1.1.4-r3_x86_64.ipk
+Source: feeds/passwall_packages/ipt2socks
+Description: Utility for converting iptables (redirect/tproxy) to socks5.
+License: AGPL-3.0
+
+
+Package: luci-app-openlist2
+Version: 1.0.1-r1
+Depends: libc, openlist2
+Section: luci
+Architecture: all
+Maintainer: OpenWrt LuCI community
+MD5Sum: 8be35c0cd2074f09187bb88cface8097
+Size: 5391
+Filename: luci-app-openlist2_1.0.1-r1_all.ipk
+Source: /feed/luci-app-openlist2
+Description: LuCI support for openlist
+
+
+Package: luci-app-passwall
+Version: 25.7.15-r1
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, chinadns-ng, dns2socks, dnsmasq-full, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, luci-lua-runtime
+Section: luci
+Architecture: all
+Maintainer: OpenWrt LuCI community
+MD5Sum: b8f5b8c77df4cfe24462a31dd0cb981e
+Size: 954541
+Filename: luci-24.10_luci-app-passwall_25.7.15-r1_all.ipk
+Source: feeds/passwall/luci-app-passwall
+Description: LuCI support for PassWall
+
+
+Package: luci-app-store
+Version: 0.1.29-5-r17
+Depends: luci-lib-taskd (>=1.0.19), libc, curl, opkg, luci-lib-ipkg, tar, libuci-lua, mount-utils, luci-lib-taskd, luci-lua-runtime
+Section: luci
+Architecture: all
+Maintainer: OpenWrt LuCI community
+MD5Sum: 4dc9b4219fc0d8e2fa57940eec5c0fad
+Size: 112923
+Filename: luci-app-store_0.1.29-5-r17_all.ipk
+Source: feeds/kiddin9/luci-app-store
+Description: luci-app-store is a ipk store developed by LinkEase team
+
+
+Package: luci-app-sunpanel
+Version: 1.3.1-2-r2
+Depends: libc, sunpanel, luci-lua-runtime
+Section: luci
+Architecture: all
+Maintainer: OpenWrt LuCI community
+MD5Sum: 0bd47f725063c09c744c659426a05bd3
+Size: 1822133
+Filename: luci-app-sunpanel_1.3.1-2-r2_all.ipk
+Source: feeds/kiddin9/luci-app-sunpanel
+Description: LuCI support for sunpanel
+
+
+Package: luci-app-unishare
+Version: 1.0.0-r4-r3
+Depends: libc, unishare, luci-lua-runtime
+Section: luci
+Architecture: all
+Maintainer: OpenWrt LuCI community
+MD5Sum: 0d49304f09ee30f3fd69fdbeffa495bb
+Size: 4060
+Filename: luci-app-unishare_1.0.0-r4-r3_all.ipk
+Source: feeds/kiddin9/luci-app-unishare
+Description: LuCI for UniShare
+
+
+Package: luci-app-v2ray-server
+Version: 13-r10
+Depends: libc, luci-compat, unzip, luci-lua-runtime
+Section: luci
+Architecture: all
+Maintainer: OpenWrt LuCI community
+MD5Sum: 3ddc2d14005abf05ee1d134381962e22
+Size: 14814
+Filename: luci-app-v2ray-server_13-r10_all.ipk
+Source: feeds/kiddin9/luci-app-v2ray-server
+Description: LuCI support for V2ray Server
+
+
+Package: luci-i18n-openlist2-zh-cn
+Version: 25.199.43304~c34dce2
+Depends: libc, luci-app-openlist2
+Section: luci
+Architecture: all
+MD5Sum: 98e16859b69e7ebf7d39186fa4e74abf
+Size: 3009
+Filename: luci-i18n-openlist2-zh-cn_25.199.43304~c34dce2_all.ipk
+Source: /feed/luci-app-openlist2
+Description: Translation for luci-app-openlist2 - 简体中文 (Chinese Simplified)
+
+
+Package: luci-i18n-passwall-zh-cn
+Version: 25.196.30785~1241432
+Depends: libc, luci-app-passwall
+Section: luci
+Architecture: all
+MD5Sum: 571aa96243ab19645e7f6fc06cf58145
+Size: 16247
+Filename: luci-24.10_luci-i18n-passwall-zh-cn_25.196.30785.1241432_all.ipk
+Source: feeds/passwall/luci-app-passwall
+Description: Translation for luci-app-passwall - 简体中文 (Chinese Simplified)
+
+
+Package: luci-lib-taskd
+Version: 1.0.23-r5
+Depends: taskd (>=1.0.3), libc, luci-lib-xterm, taskd, luci-lua-runtime
+Section: luci
+Architecture: all
+Maintainer: OpenWrt LuCI community
+MD5Sum: 67892bdf308ca11b7903bb7c548fe2a0
+Size: 7599
+Filename: luci-lib-taskd_1.0.23-r5_all.ipk
+Source: feeds/kiddin9/luci-lib-taskd
+Description: Task library
+
+
+Package: luci-lib-xterm
+Version: 4.18.0-r2
+Depends: libc, luci-lua-runtime
+Section: luci
+Architecture: all
+Maintainer: OpenWrt LuCI community
+MD5Sum: 7ff754ed23a27887f4f7931b4c2f39f6
+Size: 79476
+Filename: luci-lib-xterm_4.18.0-r2_all.ipk
+Source: feeds/kiddin9/luci-lib-xterm
+Description: Xterm.js library
+License: MIT
+
+
+Package: microsocks
+Version: 1.0.5-r1
+Depends: libc, libpthread
+Section: net
+Architecture: x86_64
+Maintainer: lean
+MD5Sum: 9ccf493e2ea4bb64425381ab8868b485
+Size: 6723
+Filename: microsocks_1.0.5-r1_x86_64.ipk
+Source: feeds/passwall_packages/microsocks
+Description: A SOCKS5 service that you can run on your remote boxes to tunnel connections
+License: MIT
+
+
+Package: naiveproxy
+Version: 138.0.7204.35-r1
+Depends: libc, libatomic1
+Section: net
+Architecture: x86_64
+Maintainer: sbwml <admin@cooluc.com>
+MD5Sum: 669702abdbe8ef2d7c0d6334815f53ac
+Size: 3569580
+Filename: naiveproxy_138.0.7204.35-r1_x86_64.ipk
+Source: feeds/passwall_packages/naiveproxy
+Description: NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+License: BSD 3-Clause
+
+
+Package: openlist2
+Version: 4.0.9-r1
+Depends: libc, ca-bundle
+Section: net
+Architecture: x86_64
+Maintainer: sbwml <admin@cooluc.com>
+MD5Sum: 6a1bc6ff132e63fff6b160938d062fea
+Size: 19792571
+Filename: openlist2_4.0.9-r1_x86_64.ipk
+Source: /feed/openlist2
+Description: A file list program that supports multiple storage, powered by Gin and Solidjs.
+License: GPL-3.0
+
+
+Package: shadow-tls
+Version: 0.2.25-r1
+Depends: libc
+Section: net
+Architecture: x86_64
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+MD5Sum: 43b801dd8c890d949b20c07bd170ded3
+Size: 1684392
+Filename: shadow-tls_0.2.25-r1_x86_64.ipk
+Source: feeds/passwall_packages/shadow-tls
+Description: A proxy to expose real tls handshake to the firewall.
+License: MIT
+
+
+Package: shadowsocks-rust-sslocal
+Version: 1.23.5-r1
+Depends: libc
+Section: net
+Architecture: x86_64
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+MD5Sum: e0ec6671f0914accb05b080750857efb
+Size: 3897604
+Filename: shadowsocks-rust-sslocal_1.23.5-r1_x86_64.ipk
+Source: feeds/passwall_packages/shadowsocks-rust
+Description: shadowsocks-rust sslocal
+License: MIT
+
+
+Package: shadowsocks-rust-ssserver
+Version: 1.23.5-r1
+Depends: libc
+Section: net
+Architecture: x86_64
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+MD5Sum: cd5147c353e1467fc6b74a6ff41de8f4
+Size: 3133550
+Filename: shadowsocks-rust-ssserver_1.23.5-r1_x86_64.ipk
+Source: feeds/passwall_packages/shadowsocks-rust
+Description: shadowsocks-rust ssserver
+License: MIT
+
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-r11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+Section: net
+Architecture: x86_64
+MD5Sum: fc43792996fadd99698110bb18afaac7
+Size: 63592
+Filename: shadowsocksr-libev-ssr-local_2.5.6-r11_x86_64.ipk
+Source: feeds/passwall_packages/shadowsocksr-libev
+Description: shadowsocksr-libev ssr-local
+License: GPL-3.0
+
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-r11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+Section: net
+Architecture: x86_64
+MD5Sum: c8606016cf9eb19213e1ffd03ba24b24
+Size: 56781
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-r11_x86_64.ipk
+Source: feeds/passwall_packages/shadowsocksr-libev
+Description: shadowsocksr-libev ssr-redir
+License: GPL-3.0
+
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-r11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+Section: net
+Architecture: x86_64
+MD5Sum: 434fb114adbfe525e49d66cef99fdfec
+Size: 66729
+Filename: shadowsocksr-libev-ssr-server_2.5.6-r11_x86_64.ipk
+Source: feeds/passwall_packages/shadowsocksr-libev
+Description: shadowsocksr-libev ssr-server
+License: GPL-3.0
+
+
+Package: simple-obfs
+Version: 0.0.5-r1
+Depends: libc, libpthread, libev
+Section: net
+Architecture: x86_64
+Maintainer: Jian Chang <aa65535@live.com>
+MD5Sum: 5bb1fdfdb58c516bf2deb07cde5596a0
+Size: 31225
+Filename: simple-obfs_0.0.5-r1_x86_64.ipk
+Source: feeds/passwall_packages/simple-obfs
+Description: Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+License: GPL-3.0-or-later
+
+
+Package: sing-box
+Version: 1.11.15-r1
+Depends: libc, ca-bundle, kmod-inet-diag, kmod-netlink-diag, kmod-tun
+Section: net
+Architecture: x86_64
+MD5Sum: 40f17cf7343301e3ef6f4c86044714a5
+Size: 11849785
+Filename: sing-box_1.11.15-r1_x86_64.ipk
+Source: feeds/passwall_packages/sing-box
+Description: Sing-box is a universal proxy platform which supports hysteria, SOCKS,
+License: GPL-3.0-or-later
+
+
+Package: sunpanel
+Version: 1.3.1-r8
+Depends: libc, ubus, uci, bash
+Section: net
+Architecture: x86_64
+MD5Sum: 02af78516e958a9a52feaa8de165cea6
+Size: 9809661
+Filename: sunpanel_1.3.1-r8_x86_64.ipk
+Source: feeds/kiddin9/sunpanel
+Description: Server, NAS navigation panel, Homepage, Browser homepage.
+
+
+Package: taskd
+Version: 1.0.3-r3
+Depends: libc, procd, script-utils, coreutils, coreutils-stty
+Section: utils
+Architecture: all
+Maintainer: jjm2473 <jjm2473@gmail.com>
+MD5Sum: 3b5846a505642db3c97e9a9d9496c02c
+Size: 2479
+Filename: taskd_1.0.3-r3_all.ipk
+Source: feeds/kiddin9/taskd
+Description: Simple Task Manager based on procd
+
+
+Package: tcping
+Version: 0.3-r1
+Depends: libc
+Section: net
+Architecture: x86_64
+MD5Sum: ea3d768b7c407c21f983de70d8b306d1
+Size: 4437
+Filename: tcping_0.3-r1_x86_64.ipk
+Source: feeds/passwall_packages/tcping
+Description: tcping measures the latency of a tcp-connection
+License: GPL-2.0-only
+
+
+Package: trojan-plus
+Version: 10.0.3-r2
+Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-program_options
+Section: net
+Architecture: x86_64
+Maintainer: Trojan-Plus-Group
+MD5Sum: c3d35c62397a6f63a72d7420b291880c
+Size: 446150
+Filename: trojan-plus_10.0.3-r2_x86_64.ipk
+Source: feeds/passwall_packages/trojan-plus
+Description: An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+License: GPL-3.0
+
+
+Package: tuic-client
+Version: 1.0.0-r1
+Depends: libc
+Section: net
+Architecture: x86_64
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+MD5Sum: 19c4c60a2cc0c98f291b0ab3ad3ae7b2
+Size: 1125153
+Filename: tuic-client_1.0.0-r1_x86_64.ipk
+Source: feeds/passwall_packages/tuic-client
+Description: Delicately-TUICed 0-RTT proxy protocol
+
+
+Package: unishare
+Version: 1.1.0-r6
+Depends: libc, samba4-server, webdav2
+Section: net
+Architecture: all
+Maintainer: jjm2473 <jjm2473@gmail.com>
+MD5Sum: 480e30ff8a325bf42ea96ffac0415403
+Size: 3333
+Filename: unishare_1.1.0-r6_all.ipk
+Source: feeds/kiddin9/unishare
+Description: Configure samba, webdav (maybe more?) in one app
+
+
+Package: v2ray-geoip
+Version: 202507050144.1
+Depends: libc
+Section: net
+Architecture: all
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+MD5Sum: 9b3d99a0aa7892b71007fca02438330d
+Size: 3735192
+Filename: v2ray-geoip_202507050144.1_all.ipk
+Source: feeds/passwall_packages/v2ray-geodata
+Description: GeoIP List for V2Ray
+License: CC-BY-SA-4.0
+
+
+Package: v2ray-geosite
+Version: 20250627153051.1
+Depends: libc
+Section: net
+Architecture: all
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+MD5Sum: 6c5475ae9da94e25a29325835dfdbfd7
+Size: 664067
+Filename: v2ray-geosite_20250627153051.1_all.ipk
+Source: feeds/passwall_packages/v2ray-geodata
+Description: Geosite List for V2Ray
+License: MIT
+
+
+Package: v2ray-plugin
+Version: 5.33.0-r1
+Depends: libc, ca-bundle
+Section: net
+Architecture: x86_64
+Maintainer: madeye <max.c.lv@gmail.com>
+MD5Sum: ed24e5cddad21d39a56c91819910d7aa
+Size: 6397313
+Filename: v2ray-plugin_5.33.0-r1_x86_64.ipk
+Source: feeds/passwall_packages/v2ray-plugin
+Description: SIP003 plugin for shadowsocks, based on v2ray
+License: MIT
+
+
+Package: webdav2
+Version: 4.3.1-r4
+Depends: libc
+Section: net
+Architecture: x86_64
+Maintainer: jjm2473 <jjm2473@gmail.com>
+MD5Sum: 10657ad187684cc515fa18758c02eca9
+Size: 4093960
+Filename: webdav2_4.3.1-r4_x86_64.ipk
+Source: feeds/kiddin9/webdav2
+Description: A Simple Go WebDAV server that supports acls.
+License: MIT
+
+
+Package: xray-core
+Version: 25.6.8-r1
+Depends: libc, ca-bundle
+Section: net
+Architecture: x86_64
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+MD5Sum: c06a4b2ab3cce45ffcac9f2ccc909b68
+Size: 11146945
+Filename: xray-core_25.6.8-r1_x86_64.ipk
+Source: feeds/passwall_packages/xray-core
+Description: Xray, Penetrates Everything. It helps you to build your own computer network.
+License: MPL-2.0
+
+
+Package: xray-plugin
+Version: 1.8.24-r1
+Depends: libc, ca-bundle
+Section: net
+Architecture: x86_64
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+MD5Sum: 0f3cf5c012cb425fa9879f1e229a4306
+Size: 7375600
+Filename: xray-plugin_1.8.24-r1_x86_64.ipk
+Source: feeds/passwall_packages/xray-plugin
+Description: SIP003 plugin for Shadowsocks, based on Xray
+License: MIT
+
+
