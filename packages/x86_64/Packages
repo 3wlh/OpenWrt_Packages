@@ -80,7 +80,7 @@ Lost field SourceDateEpoch, 1751040255
 Lost field URL, https://wiki.metacubex.one
 Lost field Installed-Size, 31918080
 Lost field SourceName, openlist2
-Lost field SourceDateEpoch, 1753419287
+Lost field SourceDateEpoch, 1753455605
 Lost field URL, https://openlist.team/
 Lost field Installed-Size, 19834880
 Lost field SourceName, shadow-tls
@@ -449,8 +449,8 @@ Depends: libc, ca-bundle
 Section: net
 Architecture: x86_64
 Maintainer: sbwml <admin@cooluc.com>
-MD5Sum: 6a1bc6ff132e63fff6b160938d062fea
-Size: 19792571
+MD5Sum: 51ef3de625cac1d0f6f275d609396ec4
+Size: 19792147
 Filename: openlist2_4.0.9-r1_x86_64.ipk
 Source: /feed/openlist2
 Description: A file list program that supports multiple storage, powered by Gin and Solidjs.
