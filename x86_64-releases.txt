@@ -4,3 +4,5 @@ passwall https://github.com/xiaorouji/openwrt-passwall/releases/download/25.7.15
 openlist2 https://github.com/sbwml/luci-app-openlist2/releases/download/v4.0.9/openwrt-24.10-x86_64.tar.gz
 passwall https://github.com/xiaorouji/openwrt-passwall/releases/download/25.7.15-1/passwall_packages_ipk_x86_64.zip
 openlist2 https://github.com/sbwml/luci-app-openlist2/releases/download/v4.0.9/openwrt-24.10-x86_64.tar.gz
+passwall https://github.com/xiaorouji/openwrt-passwall/releases/download/25.7.15-1/passwall_packages_ipk_x86_64.zip
+openlist2 https://github.com/sbwml/luci-app-openlist2/releases/download/v4.0.9/openwrt-24.10-x86_64.tar.gz
