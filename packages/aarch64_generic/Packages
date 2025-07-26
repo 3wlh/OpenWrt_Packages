@@ -27,6 +27,14 @@ Lost field Installed-Size, 3184640
 Lost field SourceName, luci-app-passwall
 Lost field SourceDateEpoch, 1752568385
 Lost field Installed-Size, 40960
+Lost field SourceName, luci-app-argon-config
+Lost field SourceDateEpoch, 1751551742
+Lost field URL, https://github.com/openwrt/luci
+Lost field Installed-Size, 30720
+Lost field SourceName, luci-app-homeproxy
+Lost field SourceDateEpoch, 1752654224
+Lost field URL, https://github.com/openwrt/luci
+Lost field Installed-Size, 1966080
 Lost field SourceName, luci-app-nikki
 Lost field SourceDateEpoch, 1751040255
 Lost field URL, https://github.com/openwrt/luci
@@ -35,6 +43,10 @@ Lost field SourceName, luci-app-openlist2
 Lost field SourceDateEpoch, 1753036836
 Lost field URL, https://github.com/openwrt/luci
 Lost field Installed-Size, 30720
+Lost field SourceName, luci-app-ramfree
+Lost field SourceDateEpoch, 1751551742
+Lost field URL, https://github.com/openwrt/luci
+Lost field Installed-Size, 10240
 Lost field SourceName, luci-app-socat
 Lost field SourceDateEpoch, 1748360241
 Lost field URL, https://github.com/openwrt/luci
@@ -55,11 +67,20 @@ Lost field SourceName, luci-app-v2ray-server
 Lost field SourceDateEpoch, 1748533013
 Lost field URL, https://github.com/openwrt/luci
 Lost field Installed-Size, 71680
+Lost field SourceName, luci-app-argon-config
+Lost field SourceDateEpoch, 1751551742
+Lost field Installed-Size, 10240
+Lost field SourceName, luci-app-homeproxy
+Lost field SourceDateEpoch, 1752654224
+Lost field Installed-Size, 30720
 Lost field SourceName, luci-app-nikki
 Lost field SourceDateEpoch, 1751040255
 Lost field Installed-Size, 20480
 Lost field SourceName, luci-app-openlist2
 Lost field SourceDateEpoch, 1753036836
+Lost field Installed-Size, 10240
+Lost field SourceName, luci-app-ramfree
+Lost field SourceDateEpoch, 1751551742
 Lost field Installed-Size, 10240
 Lost field SourceName, luci-lib-taskd
 Lost field SourceDateEpoch, 1750865876
@@ -69,6 +90,10 @@ Lost field SourceName, luci-lib-xterm
 Lost field SourceDateEpoch, 1746977701
 Lost field URL, https://github.com/openwrt/luci
 Lost field Installed-Size, 368640
+Lost field SourceName, luci-theme-argon
+Lost field SourceDateEpoch, 1752845643
+Lost field URL, https://github.com/openwrt/luci
+Lost field Installed-Size, 768000
 Lost field SourceName, microsocks
 Lost field LicenseFiles, COPYING
 Lost field SourceDateEpoch, 1752382024
@@ -250,6 +275,32 @@ Description: Utility for converting iptables (redirect/tproxy) to socks5.
 License: AGPL-3.0
 
 
+Package: luci-app-argon-config
+Version: 25.184.50942~23154bf
+Depends: libc, luci-theme-argon
+Section: luci
+Architecture: all
+Maintainer: OpenWrt LuCI community
+MD5Sum: 7faaf4bef2476cbe41406b3fc7a42fc7
+Size: 3949
+Filename: luci-app-argon-config_25.184.50942~23154bf_all.ipk
+Source: feeds/luci/applications/luci-app-argon-config
+Description: LuCI for Argon theme configuration
+
+
+Package: luci-app-homeproxy
+Version: 25.197.30224~af6a147
+Depends: libc, sing-box, firewall4, kmod-nft-tproxy
+Section: luci
+Architecture: all
+Maintainer: OpenWrt LuCI community
+MD5Sum: 1ebab1369967b0e71ed1e22123aac4e9
+Size: 608887
+Filename: luci-app-homeproxy_25.197.30224~af6a147_all.ipk
+Source: feeds/luci/applications/luci-app-homeproxy
+Description: The modern ImmortalWrt proxy platform for ARM64/AMD64
+
+
 Package: luci-app-nikki
 Version: 1.23.2-r1
 Depends: libc, luci-base, nikki
@@ -287,6 +338,19 @@ Size: 954541
 Filename: luci-24.10_luci-app-passwall_25.7.15-r1_all.ipk
 Source: feeds/passwall/luci-app-passwall
 Description: LuCI support for PassWall
+
+
+Package: luci-app-ramfree
+Version: 1.0-r1
+Depends: libc, luci-lua-runtime
+Section: luci
+Architecture: all
+Maintainer: OpenWrt LuCI community
+MD5Sum: d37de92f1aa2335a9fc901c356ba389b
+Size: 1435
+Filename: luci-app-ramfree_1.0-r1_all.ipk
+Source: feeds/luci/applications/luci-app-ramfree
+Description: luci-app-ramfree
 
 
 Package: luci-app-socat
@@ -354,6 +418,30 @@ Source: feeds/kiddin9/luci-app-v2ray-server
 Description: LuCI support for V2ray Server
 
 
+Package: luci-i18n-argon-config-zh-cn
+Version: 25.184.50942~23154bf
+Depends: libc, luci-app-argon-config
+Section: luci
+Architecture: all
+MD5Sum: a0be0111b589daab9d99d35952cf3be9
+Size: 2221
+Filename: luci-i18n-argon-config-zh-cn_25.184.50942~23154bf_all.ipk
+Source: feeds/luci/applications/luci-app-argon-config
+Description: Translation for luci-app-argon-config - 简体中文 (Chinese Simplified)
+
+
+Package: luci-i18n-homeproxy-zh-cn
+Version: 25.196.29294~df03cca
+Depends: libc, luci-app-homeproxy
+Section: luci
+Architecture: all
+MD5Sum: a4dc81bb3ac88f0167b6e2f15803547b
+Size: 12499
+Filename: luci-i18n-homeproxy-zh-cn_25.196.29294~df03cca_all.ipk
+Source: feeds/luci/applications/luci-app-homeproxy
+Description: Translation for luci-app-homeproxy - 简体中文 (Chinese Simplified)
+
+
 Package: luci-i18n-nikki-zh-cn
 Version: 25.178.57855~37eddaa
 Depends: libc, luci-app-nikki
@@ -390,6 +478,18 @@ Source: feeds/passwall/luci-app-passwall
 Description: Translation for luci-app-passwall - 简体中文 (Chinese Simplified)
 
 
+Package: luci-i18n-ramfree-zh-cn
+Version: 25.184.50942~23154bf
+Depends: libc, luci-app-ramfree
+Section: luci
+Architecture: all
+MD5Sum: 3effac0199738d62551d63432d588224
+Size: 1165
+Filename: luci-i18n-ramfree-zh-cn_25.184.50942~23154bf_all.ipk
+Source: feeds/luci/applications/luci-app-ramfree
+Description: Translation for luci-app-ramfree - 简体中文 (Chinese Simplified)
+
+
 Package: luci-lib-taskd
 Version: 1.0.23-r5
 Depends: taskd (>=1.0.3), libc, luci-lib-xterm, taskd, luci-lua-runtime
@@ -415,6 +515,19 @@ Filename: luci-lib-xterm_4.18.0-r2_all.ipk
 Source: feeds/kiddin9/luci-lib-xterm
 Description: Xterm.js library
 License: MIT
+
+
+Package: luci-theme-argon
+Version: 2.4.2-r20250617
+Depends: libc, wget, jsonfilter, luci-lua-runtime
+Section: luci
+Architecture: all
+Maintainer: OpenWrt LuCI community
+MD5Sum: 4ff2065c3d1f8419cacaacfe2a7fcf60
+Size: 391572
+Filename: luci-theme-argon_2.4.2-r20250617_all.ipk
+Source: feeds/luci/themes/luci-theme-argon
+Description: Argon Theme
 
 
 Package: microsocks
