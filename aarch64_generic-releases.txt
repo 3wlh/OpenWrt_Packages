@@ -1,3 +1,4 @@
 Package:openlist2 https://github.com/sbwml/luci-app-openlist2/releases/download/v4.0.9/openwrt-24.10-aarch64_generic.tar.gz
 Package:nikki https://github.com/nikkinikki-org/OpenWrt-nikki/releases/download/v1.23.2/nikki_aarch64_generic-openwrt-24.10.tar.gz
 Package:passwall https://github.com/xiaorouji/openwrt-passwall/releases/download/25.7.15-1/passwall_packages_ipk_aarch64_generic.zip 
+Package:socat https://github.com/chenmozhijin/luci-app-socat/releases/download/v20231119/luci-app-socat_20231119_all.ipk
