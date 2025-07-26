@@ -36,8 +36,9 @@ Lost field SourceDateEpoch, 1753036836
 Lost field URL, https://github.com/openwrt/luci
 Lost field Installed-Size, 30720
 Lost field SourceName, luci-app-socat
-Lost field SourceDateEpoch, 1699969091
-Lost field Installed-Size, 3956
+Lost field SourceDateEpoch, 1748360241
+Lost field URL, https://github.com/openwrt/luci
+Lost field Installed-Size, 40960
 Lost field SourceName, luci-app-store
 Lost field SourceDateEpoch, 1750433807
 Lost field URL, https://github.com/openwrt/luci
@@ -60,9 +61,6 @@ Lost field Installed-Size, 20480
 Lost field SourceName, luci-app-openlist2
 Lost field SourceDateEpoch, 1753036836
 Lost field Installed-Size, 10240
-Lost field SourceName, luci-i18n-socat-zh-cn
-Lost field SourceDateEpoch, 1699969091
-Lost field Installed-Size, 941
 Lost field SourceName, luci-lib-taskd
 Lost field SourceDateEpoch, 1750865876
 Lost field URL, https://github.com/openwrt/luci
@@ -292,15 +290,15 @@ Description: LuCI support for PassWall
 
 
 Package: luci-app-socat
-Version: 20231119
-Depends: libc, socat, luci, luci-compat, luci-lua-runtime
+Version: 1.0-r9
+Depends: libc, socat, luci-lua-runtime
 Section: luci
 Architecture: all
 Maintainer: OpenWrt LuCI community
-MD5Sum: 934703ed0eaa2b21e3bb61de36b9cad5
-Size: 4792
-Filename: luci-app-socat_20231119_all.ipk
-Source: package/luci-app-socat
+MD5Sum: 72f4a0b49b2cfa0c65897b7a7bc11b3b
+Size: 5315
+Filename: luci-app-socat_1.0-r9_all.ipk
+Source: feeds/kiddin9/luci-app-socat
 Description: LuCI support for Socat
 
 
@@ -390,19 +388,6 @@ Size: 16247
 Filename: luci-24.10_luci-i18n-passwall-zh-cn_25.196.30785.1241432_all.ipk
 Source: feeds/passwall/luci-app-passwall
 Description: Translation for luci-app-passwall - 简体中文 (Chinese Simplified)
-
-
-Package: luci-i18n-socat-zh-cn
-Version: 231119.51215
-Depends: libc, luci-app-socat
-Section: luci
-Architecture: all
-Maintainer: chenmozhijin <cmzj11@gmail.com>
-MD5Sum: fcd1b48872d370d90ce4810e682f712e
-Size: 1786
-Filename: luci-i18n-socat-zh-cn_231119.51215_all.ipk
-Source: package/luci-app-socat
-Description: Translation for luci-app-socat - 简体中文 (Chinese Simplified)
 
 
 Package: luci-lib-taskd
