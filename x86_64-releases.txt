@@ -1,2 +1,3 @@
 Package:openlist2 https://github.com/sbwml/luci-app-openlist2/releases/download/v4.0.9/openwrt-24.10-x86_64.tar.gz
 Package:nikki https://github.com/nikkinikki-org/OpenWrt-nikki/releases/download/v1.23.2/nikki_x86_64-openwrt-24.10.tar.gz
+Package:passwall 
