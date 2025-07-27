@@ -36,7 +36,7 @@ Lost field SourceDateEpoch, 1752654224
 Lost field URL, https://github.com/openwrt/luci
 Lost field Installed-Size, 1966080
 Lost field SourceName, luci-app-nikki
-Lost field SourceDateEpoch, 1751040255
+Lost field SourceDateEpoch, 1753633890
 Lost field URL, https://github.com/openwrt/luci
 Lost field Installed-Size, 61440
 Lost field SourceName, luci-app-openlist2
@@ -52,9 +52,8 @@ Lost field SourceDateEpoch, 1748360241
 Lost field URL, https://github.com/openwrt/luci
 Lost field Installed-Size, 40960
 Lost field SourceName, luci-app-store
-Lost field SourceDateEpoch, 1750433807
-Lost field URL, https://github.com/openwrt/luci
-Lost field Installed-Size, 389120
+Lost field SourceDateEpoch, 1750350631
+Lost field Installed-Size, 111612
 Lost field SourceName, luci-app-sunpanel
 Lost field SourceDateEpoch, 1746977701
 Lost field URL, https://github.com/openwrt/luci
@@ -74,7 +73,10 @@ Lost field SourceName, luci-app-homeproxy
 Lost field SourceDateEpoch, 1752654224
 Lost field Installed-Size, 30720
 Lost field SourceName, luci-app-nikki
-Lost field SourceDateEpoch, 1751040255
+Lost field SourceDateEpoch, 1753633890
+Lost field Installed-Size, 20480
+Lost field SourceName, luci-app-nikki
+Lost field SourceDateEpoch, 1753633890
 Lost field Installed-Size, 20480
 Lost field SourceName, luci-app-openlist2
 Lost field SourceDateEpoch, 1753036836
@@ -83,13 +85,11 @@ Lost field SourceName, luci-app-ramfree
 Lost field SourceDateEpoch, 1751551742
 Lost field Installed-Size, 10240
 Lost field SourceName, luci-lib-taskd
-Lost field SourceDateEpoch, 1750865876
-Lost field URL, https://github.com/openwrt/luci
-Lost field Installed-Size, 40960
+Lost field SourceDateEpoch, 1742448719
+Lost field Installed-Size, 6502
 Lost field SourceName, luci-lib-xterm
-Lost field SourceDateEpoch, 1746977701
-Lost field URL, https://github.com/openwrt/luci
-Lost field Installed-Size, 368640
+Lost field SourceDateEpoch, 1697021058
+Lost field Installed-Size, 77218
 Lost field SourceName, luci-theme-argon
 Lost field SourceDateEpoch, 1752845643
 Lost field URL, https://github.com/openwrt/luci
@@ -105,9 +105,9 @@ Lost field SourceDateEpoch, 1752382024
 Lost field URL, https://github.com/klzgrad/naiveproxy
 Lost field Installed-Size, 6717440
 Lost field SourceName, nikki
-Lost field SourceDateEpoch, 1751040255
+Lost field SourceDateEpoch, 1753633890
 Lost field URL, https://wiki.metacubex.one
-Lost field Installed-Size, 30392320
+Lost field Installed-Size, 30279680
 Lost field SourceName, openlist2
 Lost field SourceDateEpoch, 1753455605
 Lost field URL, https://openlist.team/
@@ -157,8 +157,8 @@ Lost field SourceDateEpoch, 1744740929
 Lost field URL, https://sun-panel-doc.enianteam.com/
 Lost field Installed-Size, 24043520
 Lost field SourceName, taskd
-Lost field SourceDateEpoch, 1744740929
-Lost field Installed-Size, 20480
+Lost field SourceDateEpoch, 1733470641
+Lost field Installed-Size, 1632
 Lost field SourceName, tcping
 Lost field LicenseFiles, license.txt
 Lost field SourceDateEpoch, 1752382024
@@ -302,14 +302,14 @@ Description: The modern ImmortalWrt proxy platform for ARM64/AMD64
 
 
 Package: luci-app-nikki
-Version: 1.23.2-r1
+Version: 1.23.3-r1
 Depends: libc, luci-base, nikki
 Section: luci
 Architecture: all
 Maintainer: OpenWrt LuCI community
-MD5Sum: c41cfff0641aa800abedf303e1fed74f
-Size: 9777
-Filename: luci-app-nikki_1.23.2-r1_all.ipk
+MD5Sum: 4fd2d0c3f51336a662f4eff847815177
+Size: 9801
+Filename: luci-app-nikki_1.23.3-r1_all.ipk
 Source: /feed/luci-app-nikki
 Description: LuCI Support for nikki
 
@@ -367,15 +367,15 @@ Description: LuCI support for Socat
 
 
 Package: luci-app-store
-Version: 0.1.29-5-r17
-Depends: luci-lib-taskd (>=1.0.19), libc, curl, opkg, luci-lib-ipkg, tar, libuci-lua, mount-utils, luci-lib-taskd, luci-lua-runtime
+Version: 0.1.29-5
+Depends: luci-lib-taskd (>=1.0.19), libc, curl, opkg, luci-lib-ipkg, tar, libuci-lua, mount-utils, luci-lib-taskd
 Section: luci
 Architecture: all
 Maintainer: OpenWrt LuCI community
-MD5Sum: 4dc9b4219fc0d8e2fa57940eec5c0fad
-Size: 112923
-Filename: luci-app-store_0.1.29-5-r17_all.ipk
-Source: feeds/kiddin9/luci-app-store
+MD5Sum: b02b385e08d6fd03a15247db398575af
+Size: 112673
+Filename: luci-app-store_0.1.29-5_all.ipk
+Source: feeds/store/luci/luci-app-store
 Description: luci-app-store is a ipk store developed by LinkEase team
 
 
@@ -443,15 +443,27 @@ Description: Translation for luci-app-homeproxy - 简体中文 (Chinese Simplifi
 
 
 Package: luci-i18n-nikki-zh-cn
-Version: 25.178.57855~37eddaa
+Version: 25.208.59490~dabd731
 Depends: libc, luci-app-nikki
 Section: luci
 Architecture: all
-MD5Sum: 1ca94fba4e4cefe95ca419f29adb851f
-Size: 4642
-Filename: luci-i18n-nikki-zh-cn_25.178.57855~37eddaa_all.ipk
+MD5Sum: 3467d01010ab5451f7d8febdb75e667c
+Size: 4701
+Filename: luci-i18n-nikki-zh-cn_25.208.59490~dabd731_all.ipk
 Source: /feed/luci-app-nikki
 Description: Translation for luci-app-nikki - 简体中文 (Chinese Simplified)
+
+
+Package: luci-i18n-nikki-zh-tw
+Version: 25.208.59490~dabd731
+Depends: libc, luci-app-nikki
+Section: luci
+Architecture: all
+MD5Sum: 59c0041a59ecbbeac395ff6e6de3166e
+Size: 4750
+Filename: luci-i18n-nikki-zh-tw_25.208.59490~dabd731_all.ipk
+Source: /feed/luci-app-nikki
+Description: Translation for luci-app-nikki - 繁體中文 (Chinese Traditional)
 
 
 Package: luci-i18n-openlist2-zh-cn
@@ -491,28 +503,28 @@ Description: Translation for luci-app-ramfree - 简体中文 (Chinese Simplified
 
 
 Package: luci-lib-taskd
-Version: 1.0.23-r5
-Depends: taskd (>=1.0.3), libc, luci-lib-xterm, taskd, luci-lua-runtime
+Version: 1.0.23
+Depends: taskd (>=1.0.3-1), libc, luci-lib-xterm, taskd
 Section: luci
 Architecture: all
 Maintainer: OpenWrt LuCI community
-MD5Sum: 67892bdf308ca11b7903bb7c548fe2a0
-Size: 7599
-Filename: luci-lib-taskd_1.0.23-r5_all.ipk
-Source: feeds/kiddin9/luci-lib-taskd
+MD5Sum: 51af7a4952852773821d697e1503ccec
+Size: 7388
+Filename: luci-lib-taskd_1.0.23_all.ipk
+Source: feeds/store/luci/luci-lib-taskd
 Description: Task library
 
 
 Package: luci-lib-xterm
-Version: 4.18.0-r2
-Depends: libc, luci-lua-runtime
+Version: 4.18.0
+Depends: libc
 Section: luci
 Architecture: all
 Maintainer: OpenWrt LuCI community
-MD5Sum: 7ff754ed23a27887f4f7931b4c2f39f6
-Size: 79476
-Filename: luci-lib-xterm_4.18.0-r2_all.ipk
-Source: feeds/kiddin9/luci-lib-xterm
+MD5Sum: 49e3d23dd5e1e8097d4f1a2990d47af9
+Size: 78112
+Filename: luci-lib-xterm_4.18.0_all.ipk
+Source: feeds/store/luci/luci-lib-xterm
 Description: Xterm.js library
 License: MIT
 
@@ -559,15 +571,15 @@ License: BSD 3-Clause
 
 
 Package: nikki
-Version: 2025.06.25-r1
+Version: 2025.07.27-r1
 Depends: libc, ca-bundle, curl, yq, firewall4, ip-full, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun
 Provides: mihomo
 Section: net
 Architecture: aarch64_generic
 Maintainer: Joseph Mory <morytyann@gmail.com>
-MD5Sum: 3916b9d377594c833d8a7e4f309ee14e
-Size: 10799618
-Filename: nikki_2025.06.25-r1_aarch64_generic.ipk
+MD5Sum: 2a64599b23d24e6972726092a801f804
+Size: 10683551
+Filename: nikki_2025.07.27-r1_aarch64_generic.ipk
 Source: /feed/nikki
 Description: A rule based proxy in Go.
 License: GPL3.0+
@@ -708,15 +720,15 @@ Description: Server, NAS navigation panel, Homepage, Browser homepage.
 
 
 Package: taskd
-Version: 1.0.3-r3
+Version: 1.0.3-2
 Depends: libc, procd, script-utils, coreutils, coreutils-stty
 Section: utils
 Architecture: all
 Maintainer: jjm2473 <jjm2473@gmail.com>
-MD5Sum: dee7af15c67d7b328df3760ec5de7df8
-Size: 2481
-Filename: taskd_1.0.3-r3_all.ipk
-Source: feeds/kiddin9/taskd
+MD5Sum: e2f397087a0ca30ff8b36d017b6cbd05
+Size: 2402
+Filename: taskd_1.0.3-2_all.ipk
+Source: feeds/store/luci/taskd
 Description: Simple Task Manager based on procd
 
 
