@@ -112,6 +112,10 @@ Lost field SourceName, openlist2
 Lost field SourceDateEpoch, 1753455605
 Lost field URL, https://openlist.team/
 Lost field Installed-Size, 17315840
+Lost field SourceName, openlist2
+Lost field SourceDateEpoch, 1753952405
+Lost field URL, https://openlist.team/
+Lost field Installed-Size, 17244160
 Lost field SourceName, shadow-tls
 Lost field LicenseFiles, LICENSE
 Lost field SourceDateEpoch, 1752382024
@@ -586,14 +590,14 @@ License: GPL3.0+
 
 
 Package: openlist2
-Version: 4.0.9-r1
+Version: 4.1.0-r1
 Depends: libc, ca-bundle
 Section: net
 Architecture: aarch64_generic
 Maintainer: sbwml <admin@cooluc.com>
-MD5Sum: b02d4bdb054d79e474fc6eed34c2b4a4
-Size: 17282156
-Filename: openlist2_4.0.9-r1_aarch64_generic.ipk
+MD5Sum: c02aaf6aecb8a665236bd9e1f7f7e07b
+Size: 17210291
+Filename: openlist2_4.1.0-r1_aarch64_generic.ipk
 Source: /feed/openlist2
 Description: A file list program that supports multiple storage, powered by Gin and Solidjs.
 License: GPL-3.0
