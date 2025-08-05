@@ -6,14 +6,14 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
 Installed-Size: 593920
 Filename: chinadns-ng_2025.06.20-r1_aarch64_generic.ipk
-Size: 285953
-SHA256sum: 65fcbaeb4fb3c3a5ad52b2302352ad494deda13701cd5988cd2429c6d7166441
+Size: 285938
+SHA256sum: 3df678aebb18e1b983477843f5ba167a4c674f2589ae2ace09332f4fc0e883ce
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: dns2socks
@@ -23,14 +23,14 @@ Source: feeds/passwall_packages/dns2socks
 SourceName: dns2socks
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: http://dns2socks.sourceforge.net/
 Maintainer: ghostmaker
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: dns2socks_2.1-r2_aarch64_generic.ipk
-Size: 11836
-SHA256sum: 7d35b9a1ce0fbbb71e6b8d73f4e74180104191df65cde7f31a34bd31e6d24809
+Size: 11833
+SHA256sum: 368cf6a95aa2d4bb649a4ccbfcdad8858ca5cc373223e8ad2884b0c4a93024e0
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -42,14 +42,14 @@ SourceName: geoview
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: https://github.com/snowie2000/geoview
 Maintainer: snowie2000
 Architecture: aarch64_generic
 Installed-Size: 5867520
 Filename: geoview_0.1.10-r1_aarch64_generic.ipk
-Size: 2299810
-SHA256sum: be33e9644bfb72faa91cdd1da8334c9d81bc57c502a7c914d974b6ae81840293
+Size: 2299939
+SHA256sum: cb43abbe5472e1ad2981481b7e7acfa5de7fc28b2156283df46462607296b7b5
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -59,14 +59,14 @@ Source: feeds/passwall_packages/hysteria
 SourceName: hysteria
 License: MIT
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: https://github.com/apernet/hysteria
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_generic
 Installed-Size: 18472960
 Filename: hysteria_2.6.2-r1_aarch64_generic.ipk
-Size: 6778931
-SHA256sum: ec008a30851e4be07ae55447043bf911315da892a5f4d4454d9feeac35faf85a
+Size: 6778960
+SHA256sum: 02af6d06b0bcea4f8a4bc480657b112ac6ab09a5c430c9ca134ea35881326e96
 Description:  Hysteria is a feature-packed network utility optimized for networks
  of poor quality (e.g. satellite connections, congested public Wi-Fi,
  connecting from China to servers abroad) powered by a custom version
@@ -79,13 +79,13 @@ Source: feeds/passwall_packages/ipt2socks
 SourceName: ipt2socks
 License: AGPL-3.0
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: https://github.com/zfl9/ipt2socks
 Architecture: aarch64_generic
 Installed-Size: 143360
 Filename: ipt2socks_1.1.4-r3_aarch64_generic.ipk
-Size: 26133
-SHA256sum: 2b19665fbf2a2ca7bc9b3403c058868755d055b46921a39e64a6d74025cf940a
+Size: 26140
+SHA256sum: acc2be5ab6f0772cf3914daa2c6dad9645a5c8023b80288cac3631b100e6f120
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: luci-app-argon-config
@@ -153,19 +153,19 @@ SHA256sum: c10d99370ad6b4523993fbcf59d7ff5ed450cf2dded088ee89d340d4a1b6a77b
 Description:  LuCI support for openlist
 
 Package: luci-app-passwall
-Version: 25.8.5-r1
+Version: 25.8.5-r2
 Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, chinadns-ng, dns2socks, dnsmasq-full, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, luci-lua-runtime
 Source: feeds/passwall/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1754316824
+SourceDateEpoch: 1754368947
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3194880
-Filename: luci-app-passwall_25.8.5-r1_all.ipk
-Size: 957200
-SHA256sum: e825e75df9b5e6ae48def8073173181f658b966181d7e9c6218b14f8c259e98f
+Filename: luci-app-passwall_25.8.5-r2_all.ipk
+Size: 957222
+SHA256sum: 95c3d341b2f6ff2c817cb3ad332b7c602e52332d5cd3d40645ef4387b3890702
 Description:  LuCI support for PassWall
 
 Package: luci-app-ramfree
@@ -334,17 +334,17 @@ SHA256sum: 4afcbb9f7b39a68c95d6f12b503fab2a9a6cddb8dc27e0040e0cd956c0d220f8
 Description:  Translation for luci-app-openlist2 - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-passwall-zh-cn
-Version: 25.216.51224~3ce0762
+Version: 25.217.16947~74f7fa3
 Depends: libc, luci-app-passwall
 Source: feeds/passwall/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1754316824
+SourceDateEpoch: 1754368947
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-passwall-zh-cn_25.216.51224.3ce0762_all.ipk
-Size: 16333
-SHA256sum: d40eb81b7b9f0a8d37d7f7d39bbfa67084ca53cef0b5295e3e24bbdc2a508dce
+Filename: luci-i18n-passwall-zh-cn_25.217.16947.74f7fa3_all.ipk
+Size: 16394
+SHA256sum: 5ff6326d6dfe951bbc07031e25eeda0078b6e2c9622c2f18365f4f1107c73564
 Description:  Translation for luci-app-passwall - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-ramfree-zh-cn
@@ -416,14 +416,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r1_aarch64_generic.ipk
-Size: 7174
-SHA256sum: 63f2dd7a3b2ced9d94b0cbd8a2650e8320f84331f7d839b4b088083dc7bf56fb
+Size: 7176
+SHA256sum: 58c24d228d28af2dc98317698c654ca14d29040d844e969ae47548c129fed325
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
 
@@ -435,14 +435,14 @@ SourceName: naiveproxy
 License: BSD 3-Clause
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: https://github.com/klzgrad/naiveproxy
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
 Installed-Size: 6717440
 Filename: naiveproxy_138.0.7204.35-r1_aarch64_generic.ipk
-Size: 3420652
-SHA256sum: d6299aeb8078e939c3be663ed394ad1f56b718b844e23ca4427d2c71d3a1546d
+Size: 3420630
+SHA256sum: 66233690031f72c3a15e2f978d5976e399c6d546268808b138ea05406e4ef7fd
 Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
  censorship resistance and low detectability. Reusing Chrome's stack also
  ensures best practices in performance and security.
@@ -507,14 +507,14 @@ SourceName: shadow-tls
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: https://github.com/ihciah/shadow-tls
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_generic
 Installed-Size: 3358720
 Filename: shadow-tls_0.2.25-r1_aarch64_generic.ipk
-Size: 1594120
-SHA256sum: c5673930a0362dac963d715cc52fd3fa79c30b24ab4525a27719f307a63c608e
+Size: 1594299
+SHA256sum: c75eceaa9e6207ea9d3b384cee96e9d1bc3f2c1f7dd3698f20b4a2cf217d0cc9
 Description:  A proxy to expose real tls handshake to the firewall.
  
  It works like trojan but it does not require signing certificate.
@@ -529,14 +529,14 @@ SourceName: shadowsocks-rust
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: https://github.com/shadowsocks/shadowsocks-rust
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_generic
 Installed-Size: 8212480
 Filename: shadowsocks-rust-sslocal_1.23.5-r1_aarch64_generic.ipk
-Size: 3756386
-SHA256sum: 35d5d0981890e90c85203a8b13eec83672bb6a019d8a811866c3c6760792f708
+Size: 3758288
+SHA256sum: 486207cddf8a77131b89a0ee5e69e5373cc4491e6f845c884006af11c04d7b9b
 Description:  shadowsocks-rust sslocal
 
 Package: shadowsocks-rust-ssserver
@@ -547,14 +547,14 @@ SourceName: shadowsocks-rust
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: https://github.com/shadowsocks/shadowsocks-rust
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_generic
 Installed-Size: 6645760
 Filename: shadowsocks-rust-ssserver_1.23.5-r1_aarch64_generic.ipk
-Size: 2992886
-SHA256sum: b6c53625d0991cd0b6bfdb35dc2cf95f7427059af02daddd94c4589893895b38
+Size: 2994063
+SHA256sum: 5ffbbdea31a16eed40a2771514e8b4586b7bff0f2a2ee8814cf3aa1e1bf3e2c7
 Description:  shadowsocks-rust ssserver
 
 Package: shadowsocksr-libev-ssr-local
@@ -565,13 +565,13 @@ SourceName: shadowsocksr-libev
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_generic
 Installed-Size: 204800
 Filename: shadowsocksr-libev-ssr-local_2.5.6-r11_aarch64_generic.ipk
-Size: 63634
-SHA256sum: e54f301b2aeff52ac2c7048e0b98cc0b391b613ac10a2af76fb1c8b0fedb5276
+Size: 63650
+SHA256sum: 496160fcf0e3a18e392268635458d184f7da65f8c16796a56c560c6b799ae378
 Description:  shadowsocksr-libev ssr-local
 
 Package: shadowsocksr-libev-ssr-redir
@@ -582,13 +582,13 @@ SourceName: shadowsocksr-libev
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_generic
 Installed-Size: 143360
 Filename: shadowsocksr-libev-ssr-redir_2.5.6-r11_aarch64_generic.ipk
-Size: 57143
-SHA256sum: 33135bca90a1190889e2bf72e42129a8f57490bae1fbc8c55b06ff04076ca514
+Size: 57117
+SHA256sum: ec8ea8efcf3ee4f40f48fa266a651af7257804ae0abfb357ca99cbe708e2ecc1
 Description:  shadowsocksr-libev ssr-redir
 
 Package: shadowsocksr-libev-ssr-server
@@ -599,13 +599,13 @@ SourceName: shadowsocksr-libev
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_generic
 Installed-Size: 204800
 Filename: shadowsocksr-libev-ssr-server_2.5.6-r11_aarch64_generic.ipk
-Size: 67175
-SHA256sum: 494b95f06946f059dd05ae4aea58538d1d7b5805ec0bba1fa306dc3ad6ee72a9
+Size: 67178
+SHA256sum: 90546e82551fbb5185068cf65807f5629dda03cd4f38ee6cfbe3c25dedd88fb3
 Description:  shadowsocksr-libev ssr-server
 
 Package: simple-obfs
@@ -616,14 +616,14 @@ SourceName: simple-obfs
 License: GPL-3.0-or-later
 LicenseFiles: COPYING LICENSE
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: https://github.com/shadowsocks/simple-obfs
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: aarch64_generic
 Installed-Size: 143360
 Filename: simple-obfs_0.0.5-r1_aarch64_generic.ipk
-Size: 32105
-SHA256sum: 9a60dd747cf0315d032ffc5adaf54ac1a80b09eba146ed726ac3a679405e0d07
+Size: 32093
+SHA256sum: 8e512338ead19bd9dc60d46a01de71ecd18efcd0087a40492daa922ea1974ab8
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: sing-box
@@ -634,13 +634,13 @@ SourceName: sing-box
 License: GPL-3.0-or-later
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: https://sing-box.sagernet.org
 Architecture: aarch64_generic
 Installed-Size: 30044160
 Filename: sing-box_1.12.0-r1_aarch64_generic.ipk
-Size: 10673332
-SHA256sum: 15f3c012695f5f454cfa71c92b669ff7ba64a230de8793b1af224ced768e6d5a
+Size: 10673232
+SHA256sum: 843b2e28f006b91a00d05edb078c02aab2bf8f715e6caede151d504d306c2f08
 Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS,
  Shadowsocks, ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 
@@ -682,13 +682,13 @@ SourceName: tcping
 License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: https://github.com/jlyo/tcping
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_generic.ipk
-Size: 4323
-SHA256sum: 544f5489ce1d7a83fd4e5ee8f9dffac913fed29b0b57f3fa430fba4e6da53097
+Size: 4320
+SHA256sum: 91aa92c18bbe87a0c28dd7be641c4fff03dd1450ea08fdbf9159c7f1943aeac9
 Description:  tcping measures the latency of a tcp-connection
 
 Package: trojan-plus
@@ -698,14 +698,14 @@ Source: feeds/passwall_packages/trojan-plus
 SourceName: trojan-plus
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: https://github.com/Trojan-Plus-Group/trojan-plus
 Maintainer: Trojan-Plus-Group
 Architecture: aarch64_generic
 Installed-Size: 993280
 Filename: trojan-plus_10.0.3-r2_aarch64_generic.ipk
-Size: 411731
-SHA256sum: e69b87f723174e9b70d2f673fb6c373c3f184b9d496cebeee63ccec0c779142f
+Size: 411768
+SHA256sum: c30fdde206429e41c3578db3cc3cf9e3e6aac20fd45eacae544c8314ee2333b2
 Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
 
 Package: tuic-client
@@ -715,14 +715,14 @@ Source: feeds/passwall_packages/tuic-client
 SourceName: tuic-client
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: https://github.com/EAimTY/tuic/
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_generic
 Installed-Size: 1863680
 Filename: tuic-client_1.0.0-r1_aarch64_generic.ipk
-Size: 1043168
-SHA256sum: 4af39c675de510e623e37ace3ae07538197efb319dd75bdc6469cc22bc336d8c
+Size: 1043170
+SHA256sum: 6dc60cae300e1e1ddf0d26014153a8881202cf72ca577bdcbb8d32c7d4191ef3
 Description:  Delicately-TUICed 0-RTT proxy protocol
 
 Package: unishare
@@ -748,14 +748,14 @@ SourceName: v2ray-geodata
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 20817920
 Filename: v2ray-geoip_202507310022.1_all.ipk
-Size: 4293251
-SHA256sum: ae7b57cbe0912764f031b70643cbfa4f123ae090184329c71380698f3b937a07
+Size: 4293461
+SHA256sum: 64153abc04baa8e5801763ae0002c5606e912bf588f0c90e2c9923cea357c935
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -766,14 +766,14 @@ SourceName: v2ray-geodata
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 9758720
 Filename: v2ray-geosite_202507302215.1_all.ipk
-Size: 3086044
-SHA256sum: bb4e7a3c18b3c561c4d2d671ecefaa94a144bbae568fb03a338769405c41f72d
+Size: 3086049
+SHA256sum: 23ba6d8e94c778f2464367a1507d614c6a089ab2c06776ba424cecba12e54d69
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -784,14 +784,14 @@ SourceName: v2ray-plugin
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: https://github.com/teddysun/v2ray-plugin
 Maintainer: madeye <max.c.lv@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 15851520
 Filename: v2ray-plugin_5.37.0-r1_aarch64_generic.ipk
-Size: 5790834
-SHA256sum: 08294f33507062956afe94ed2837104cb0eb87563e67140155166eacb77550eb
+Size: 5790691
+SHA256sum: c7da766167a2787d7711307e29f48d9c6d6094920fefec0d10e6ffd3c961e83f
 Description:  SIP003 plugin for shadowsocks, based on v2ray
 
 Package: webdav2
@@ -820,14 +820,14 @@ SourceName: Xray-core
 License: MPL-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: https://xtls.github.io
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_generic
 Installed-Size: 28641280
 Filename: xray-core_25.8.3-r1_aarch64_generic.ipk
-Size: 10141422
-SHA256sum: 49b75646bd5ac8365ee02c793eedd287ed19781e75f2ccd783ce4b272bfc76da
+Size: 10141673
+SHA256sum: 1b5e38168043a05b3b4d1a07bbe7a2bf1134e5c5a1004e479427af9ee47b4cb7
 Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
  It secures your network connections and thus protects your privacy.
 
@@ -839,13 +839,13 @@ SourceName: xray-plugin
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754311335
+SourceDateEpoch: 1754366220
 URL: https://github.com/teddysun/xray-plugin
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_generic
 Installed-Size: 18247680
 Filename: xray-plugin_1.8.24-r1_aarch64_generic.ipk
-Size: 6656858
-SHA256sum: 9ab0e8f2ab97679e48ff5bf7d57ba7e797bcfbd7a84aa13d3b8ab3e08b6ea2a7
+Size: 6656798
+SHA256sum: c2e400ba136b1eb157b9121e9f4f2b5ee6ddfcc6c97b67855de07245de970667
 Description:  SIP003 plugin for Shadowsocks, based on Xray
 
