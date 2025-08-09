@@ -89,35 +89,35 @@ SHA256sum: acc2be5ab6f0772cf3914daa2c6dad9645a5c8023b80288cac3631b100e6f120
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: luci-app-argon-config
-Version: 25.184.50942~23154bf
+Version: 25.218.38878~67d5b6b
 Depends: libc, luci-theme-argon
 Source: feeds/luci/applications/luci-app-argon-config
 SourceName: luci-app-argon-config
 Section: luci
-SourceDateEpoch: 1751551742
+SourceDateEpoch: 1754477278
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 30720
-Filename: luci-app-argon-config_25.184.50942~23154bf_all.ipk
-Size: 3949
-SHA256sum: 8ca2a39b3a966cd56a537488092c27a3ab68a9e8eca77efee11d957b2f491d62
+Filename: luci-app-argon-config_25.218.38878~67d5b6b_all.ipk
+Size: 3953
+SHA256sum: 0e9a88d32bf865439c332fd5644f799df7744f404b0925d3b2b62d495ac5256d
 Description:  LuCI for Argon theme configuration
 
 Package: luci-app-homeproxy
-Version: 25.197.30224~af6a147
+Version: 25.217.29771~586b886
 Depends: libc, sing-box, firewall4, kmod-nft-tproxy
 Source: feeds/luci/applications/luci-app-homeproxy
 SourceName: luci-app-homeproxy
 Section: luci
-SourceDateEpoch: 1752654224
+SourceDateEpoch: 1754381771
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 1966080
-Filename: luci-app-homeproxy_25.197.30224~af6a147_all.ipk
-Size: 608887
-SHA256sum: a689c925f0de348ffabeafbfbf5350a3eaab018e898eda476687138c26ec47e6
+Filename: luci-app-homeproxy_25.217.29771~586b886_all.ipk
+Size: 607910
+SHA256sum: 9e950c721691ed81b3298550c6ad131dc29d2f24466e634e9b4cf5224a3ec40a
 Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
 
 Package: luci-app-nikki
@@ -169,35 +169,35 @@ SHA256sum: 95c3d341b2f6ff2c817cb3ad332b7c602e52332d5cd3d40645ef4387b3890702
 Description:  LuCI support for PassWall
 
 Package: luci-app-ramfree
-Version: 1.0-r1
-Depends: libc, luci-lua-runtime
+Version: 25.211.35477~6c230b9
+Depends: libc
 Source: feeds/luci/applications/luci-app-ramfree
 SourceName: luci-app-ramfree
 Section: luci
-SourceDateEpoch: 1751551742
+SourceDateEpoch: 1753869077
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 10240
-Filename: luci-app-ramfree_1.0-r1_all.ipk
-Size: 1435
-SHA256sum: 1fb5eece292b1c97dc4a0dbc23d9e70e28e4363a3339e23df03f7df542d46060
-Description:  luci-app-ramfree
+Filename: luci-app-ramfree_25.211.35477~6c230b9_all.ipk
+Size: 1506
+SHA256sum: a33d8ac750a5cb6aef132e485f847cf49fe64669d31b075fd0ce7a3d78cacef1
+Description:  LuCI support for RAM free
 
 Package: luci-app-socat
-Version: 1.0-r9
+Version: 2025.06.09-r2
 Depends: libc, socat, luci-lua-runtime
-Source: feeds/kiddin9/luci-app-socat
+Source: feeds/third_party/luci-app-socat
 SourceName: luci-app-socat
 Section: luci
-SourceDateEpoch: 1748360241
+SourceDateEpoch: 1749455395
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 40960
-Filename: luci-app-socat_1.0-r9_all.ipk
-Size: 5315
-SHA256sum: 9c901d1d6738ac1ae1a0564fde5b9738c4421e30f9f2a082296c667b8905f11b
+Filename: luci-app-socat_2025.06.09-r2_all.ipk
+Size: 5325
+SHA256sum: bca76517c7b300b660e68982ee7de67d89a75142a3c5be862b635222e39d8a9e
 Description:  LuCI support for Socat
 
 Package: luci-app-store
@@ -216,19 +216,18 @@ SHA256sum: 8b5c079b111a9ef686007f5da9354c525ad0da8bbf17b5addfa039a66a4efd29
 Description:  luci-app-store is a ipk store developed by LinkEase team
 
 Package: luci-app-sunpanel
-Version: 1.3.1-2-r2
-Depends: libc, sunpanel, luci-lua-runtime
-Source: feeds/kiddin9/luci-app-sunpanel
+Version: 1.3.1-2
+Depends: libc, sunpanel
+Source: /home/runner/work/openwrt-app-actions/openwrt-app-actions/apps/applications/luci-app-sunpanel
 SourceName: luci-app-sunpanel
 Section: luci
-SourceDateEpoch: 1746977701
-URL: https://github.com/openwrt/luci
+SourceDateEpoch: 1708667176
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 3399680
-Filename: luci-app-sunpanel_1.3.1-2-r2_all.ipk
-Size: 1822133
-SHA256sum: f5ce9035f21258973c6e178250eb2a54691c32d89ab108a385f3ab3c6d9380f9
+Installed-Size: 1820586
+Filename: luci-app-sunpanel_1.3.1-2_all.ipk
+Size: 1821619
+SHA256sum: 3b10d85b13ecb5fef8f13172dc95e912e039df5a131105f99637e333c40f7f17
 Description:  LuCI support for sunpanel
 
 Package: luci-app-unishare
@@ -348,18 +347,32 @@ SHA256sum: 5ff6326d6dfe951bbc07031e25eeda0078b6e2c9622c2f18365f4f1107c73564
 Description:  Translation for luci-app-passwall - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-ramfree-zh-cn
-Version: 25.184.50942~23154bf
+Version: 25.211.35477~6c230b9
 Depends: libc, luci-app-ramfree
 Source: feeds/luci/applications/luci-app-ramfree
 SourceName: luci-app-ramfree
 Section: luci
-SourceDateEpoch: 1751551742
+SourceDateEpoch: 1753869077
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-ramfree-zh-cn_25.184.50942~23154bf_all.ipk
-Size: 1165
-SHA256sum: c47dfe7577d59076fc5cc5add4b9701726edb0d16ef7e8dc65c56832160620b8
+Filename: luci-i18n-ramfree-zh-cn_25.211.35477~6c230b9_all.ipk
+Size: 1167
+SHA256sum: 12c2ef821b86ab0651cc11639c2032b67216d56872648c65d7df8457e54d653a
 Description:  Translation for luci-app-ramfree - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-socat-zh-cn
+Version: git-22.228.14902-37829b7
+Depends: libc, luci-app-socat
+Source: package/diy/luci-app-socat
+SourceName: luci-i18n-socat-zh-cn
+Section: luci
+SourceDateEpoch: 1660622902
+Architecture: all
+Installed-Size: 888
+Filename: luci-i18n-socat-zh-cn_git-22.228.14902-37829b7_all.ipk
+Size: 1745
+SHA256sum: 2a3592c1c43258501ff2188e2eae0bf7f5899278e09a8e43c9f955a9e2e9e996
+Description:  Translation for luci-app-socat - 简体中文 (Chinese Simplified)
 
 Package: luci-lib-taskd
 Version: 1.0.23
