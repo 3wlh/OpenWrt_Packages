@@ -137,19 +137,19 @@ SHA256sum: 38e75010e256de011e8c1bf29fe94e27f33828b40f29e9c23e1c52d72a89eb1a
 Description:  LuCI Support for nikki
 
 Package: luci-app-openlist2
-Version: 1.0.1-r1
+Version: 1.0.2-r1
 Depends: libc, openlist2
 Source: /feed/luci-app-openlist2
 SourceName: luci-app-openlist2
 Section: luci
-SourceDateEpoch: 1753036836
+SourceDateEpoch: 1754206787
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 30720
-Filename: luci-app-openlist2_1.0.1-r1_all.ipk
-Size: 5391
-SHA256sum: c10d99370ad6b4523993fbcf59d7ff5ed450cf2dded088ee89d340d4a1b6a77b
+Filename: luci-app-openlist2_1.0.2-r1_all.ipk
+Size: 5385
+SHA256sum: 0bb421278fbb8dd6a55241ad4deb532f2c6f2c0d5436f38cc34049d3855a2666
 Description:  LuCI support for openlist
 
 Package: luci-app-passwall
@@ -324,12 +324,12 @@ Depends: libc, luci-app-openlist2
 Source: /feed/luci-app-openlist2
 SourceName: luci-app-openlist2
 Section: luci
-SourceDateEpoch: 1753036836
+SourceDateEpoch: 1754206787
 Architecture: all
 Installed-Size: 10240
 Filename: luci-i18n-openlist2-zh-cn_25.199.43304~c34dce2_all.ipk
-Size: 3009
-SHA256sum: 4afcbb9f7b39a68c95d6f12b503fab2a9a6cddb8dc27e0040e0cd956c0d220f8
+Size: 3007
+SHA256sum: 1175d971b21b9f19fa213aaf4f336f84adda25f6daaea589a720d3c3e4126f73
 Description:  Translation for luci-app-openlist2 - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-passwall-zh-cn
@@ -479,37 +479,20 @@ SHA256sum: 71cdab63e25124c3dab28a0de7d89180e6c71296391575578a8deb6511c1468a
 Description:  A rule based proxy in Go.
 
 Package: openlist2
-Version: 4.0.9-r1
+Version: 4.1.1-r1
 Depends: libc, ca-bundle
 Source: /feed/openlist2
 SourceName: openlist2
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1753455605
+SourceDateEpoch: 1755502204
 URL: https://openlist.team/
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
-Installed-Size: 17315840
-Filename: openlist2_4.0.9-r1_aarch64_generic.ipk
-Size: 17282156
-SHA256sum: b51f50d4ae3e3597fe5b1443847d850196e102a5293c9b23b1bd20f6b13b23f4
-Description:  A file list program that supports multiple storage, powered by Gin and Solidjs.
-
-Package: openlist2
-Version: 4.1.0-r1
-Depends: libc, ca-bundle
-Source: /feed/openlist2
-SourceName: openlist2
-License: GPL-3.0
-Section: net
-SourceDateEpoch: 1753952405
-URL: https://openlist.team/
-Maintainer: sbwml <admin@cooluc.com>
-Architecture: aarch64_generic
-Installed-Size: 17244160
-Filename: openlist2_4.1.0-r1_aarch64_generic.ipk
-Size: 17210291
-SHA256sum: 15168a7ae53ac41267f4b02d16778f12e626bb81ce3cf186133ac985679e3012
+Installed-Size: 16691200
+Filename: openlist2_4.1.1-r1_aarch64_generic.ipk
+Size: 16651005
+SHA256sum: e0aadc2124e52f82eb37d64c43a7a1d22cfe63bce295083b114343a7f3c2cb80
 Description:  A file list program that supports multiple storage, powered by Gin and Solidjs.
 
 Package: shadow-tls
