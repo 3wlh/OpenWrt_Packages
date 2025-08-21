@@ -247,19 +247,19 @@ SHA256sum: 0979d064d33332196bb0c8e3922ce2dd8b584f04b57244a71d93ef273e303422
 Description:  LuCI for UniShare
 
 Package: luci-app-v2ray-server
-Version: 13-r10
-Depends: libc, luci-compat, unzip, luci-lua-runtime
+Version: 13-r11
+Depends: libc, unzip, luci-lua-runtime
 Source: feeds/kiddin9/luci-app-v2ray-server
 SourceName: luci-app-v2ray-server
 Section: luci
-SourceDateEpoch: 1748533013
+SourceDateEpoch: 1755746179
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 71680
-Filename: luci-app-v2ray-server_13-r10_all.ipk
-Size: 14814
-SHA256sum: 0537b15b90e3728c231020271f1d9690b3ce73a1a732185ff39ae9bcf2bf603e
+Filename: luci-app-v2ray-server_13-r11_all.ipk
+Size: 14803
+SHA256sum: 2827269f7e789926c3931e81a592b13f050defe927267eb02e5f414a7ec7cd26
 Description:  LuCI support for V2ray Server
 
 Package: luci-i18n-argon-config-zh-cn
