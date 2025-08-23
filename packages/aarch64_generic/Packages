@@ -121,19 +121,19 @@ SHA256sum: 9e950c721691ed81b3298550c6ad131dc29d2f24466e634e9b4cf5224a3ec40a
 Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
 
 Package: luci-app-nikki
-Version: 1.23.3-r1
+Version: 1.24.0-r1
 Depends: libc, luci-base, nikki
 Source: /feed/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1753633890
+SourceDateEpoch: 1755828543
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 61440
-Filename: luci-app-nikki_1.23.3-r1_all.ipk
-Size: 9801
-SHA256sum: 38e75010e256de011e8c1bf29fe94e27f33828b40f29e9c23e1c52d72a89eb1a
+Filename: luci-app-nikki_1.24.0-r1_all.ipk
+Size: 9754
+SHA256sum: b53bfb810e34f7abe3d0c8a48247c2f9d0f832c6355aa6ad5e1d60904b839170
 Description:  LuCI Support for nikki
 
 Package: luci-app-openlist2
@@ -291,31 +291,31 @@ SHA256sum: b49d63bf35da4029cbb7f03318d19a18e80f0d92db05f047c0c5c9e6a1145c2d
 Description:  Translation for luci-app-homeproxy - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-nikki-zh-cn
-Version: 25.208.59490~dabd731
+Version: 25.234.07743~bc0f57e
 Depends: libc, luci-app-nikki
 Source: /feed/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1753633890
+SourceDateEpoch: 1755828543
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-cn_25.208.59490~dabd731_all.ipk
-Size: 4701
-SHA256sum: 1171779e0ae8c19e8748557db495b21a606471c8341122f42425fd14e8e5d928
+Filename: luci-i18n-nikki-zh-cn_25.234.07743~bc0f57e_all.ipk
+Size: 4689
+SHA256sum: c83770a03cdf56954605ce23181400270b05bb0bc982c269042ac62a268cee85
 Description:  Translation for luci-app-nikki - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-nikki-zh-tw
-Version: 25.208.59490~dabd731
+Version: 25.234.07743~bc0f57e
 Depends: libc, luci-app-nikki
 Source: /feed/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1753633890
+SourceDateEpoch: 1755828543
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-tw_25.208.59490~dabd731_all.ipk
-Size: 4750
-SHA256sum: 22bb74678d640fc138261db5253a1e097ef39771e01028fd159407c476e31f39
+Filename: luci-i18n-nikki-zh-tw_25.234.07743~bc0f57e_all.ipk
+Size: 4744
+SHA256sum: ea69af4d394bb37d55c2503f29b7ec9314438b528e06fe17030128fdce9b4aa8
 Description:  Translation for luci-app-nikki - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-openlist2-zh-cn
@@ -461,21 +461,21 @@ Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with
  ensures best practices in performance and security.
 
 Package: nikki
-Version: 2025.07.27-r1
+Version: 2025.07.27-r2
 Depends: libc, ca-bundle, curl, yq, firewall4, ip-full, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun
 Provides: mihomo
 Source: /feed/nikki
 SourceName: nikki
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1753633890
+SourceDateEpoch: 1755828543
 URL: https://wiki.metacubex.one
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 30279680
-Filename: nikki_2025.07.27-r1_aarch64_generic.ipk
-Size: 10683551
-SHA256sum: 71cdab63e25124c3dab28a0de7d89180e6c71296391575578a8deb6511c1468a
+Filename: nikki_2025.07.27-r2_aarch64_generic.ipk
+Size: 10684384
+SHA256sum: 46cb62673844e9d2010416b1e6f04d3c8aacc9612fd77d46349dc0de3d381032
 Description:  A rule based proxy in Go.
 
 Package: openlist2
