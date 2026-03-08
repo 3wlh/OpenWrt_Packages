@@ -1,11 +1,11 @@
-name: Actions Repository Auto Cleanup
+name: Actions Repository Cleanup
 
 on:
   push:
     branches: [main, master]
   workflow_dispatch:
     inputs:
-      runs:
+      manual:
         description: "删除工作流运行"
         type: boolean
         default: true
@@ -18,5 +18,6 @@ jobs:
   cleanup:
     uses: 3wlh/Actions/.github/workflows/Call_Actions.yml@main
     with:
-      runs: ${{ inputs.runs || true }}
+      auto: ${{ true }}
+      manual: ${{ inputs.manual || false }}
       commits: ${{ inputs.commits || false }}
