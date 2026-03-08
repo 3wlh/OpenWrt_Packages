@@ -1,4 +1,4 @@
-name: Actions Repository Cleanup
+name: Actions Repository Auto Cleanup
 
 on:
   push:
@@ -18,5 +18,5 @@ jobs:
   cleanup:
     uses: 3wlh/Actions/.github/workflows/Call_Actions.yml@main
     with:
-      runs: ${{ inputs.runs }}
-      commits: ${{ inputs.commits }}
+      runs: ${{ inputs.runs || true }}
+      commits: ${{ inputs.commits || false }}
