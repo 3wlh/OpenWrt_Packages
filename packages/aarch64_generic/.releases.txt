@@ -5,5 +5,5 @@ Package:openclash https://github.com/3wlh/Actions-Packages/releases/download/Git
 Package:api-static 
 Package:page-static 
 Package:sub-static https://github.com/3wlh/Actions-Packages/releases/download/GitHub-Actions_sub-static/sub-static-openwrt-24.10-aarch64_generic_2025.12.22_010735.tar.gz
-Package:luci-app-napcatapi https://github.com/3wlh/Actions-Packages/releases/download/GitHub-Actions_luci-app-napcatapi/luci-app-napcatapi-24.10-aarch64_generic_2026.03.07_234446.tar.gz
+Package:luci-app-napcatapi https://github.com/3wlh/Actions-Packages/releases/download/GitHub-Actions_luci-app-napcatapi/luci-app-napcatapi-24.10-aarch64_generic_2026.03.09_000152.tar.gz
 Package:luci-app-scriptmsg https://github.com/3wlh/Actions-Packages/releases/download/GitHub-Actions_luci-app-scriptmsg/luci-app-scriptmsg-24.10-aarch64_generic_2026.03.07_234901.tar.gz
