@@ -1,0 +1,22 @@
+name: Actions Repository Cleanup
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+    inputs:
+      runs:
+        description: "删除工作流运行"
+        type: boolean
+        default: true
+      commits:
+        description: "重置提交历史"
+        type: boolean
+        default: false
+
+jobs:
+  cleanup:
+    uses: 3wlh/Actions/.github/workflows/Call_Actions.yml@main
+    with:
+      runs: ${{ inputs.runs }}
+      commits: ${{ inputs.commits }}
