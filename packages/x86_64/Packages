@@ -1,0 +1,1025 @@
+Package: api-static
+Version: 1.0.0-r20251219
+Depends: libc, libstdcpp6
+Source: /feed/api-static
+SourceName: api-static
+Section: utils
+SourceDateEpoch: 1766153443
+URL: https://github.com/3wlh
+Maintainer: 3wlh <3wlh.lh@gmail.com>
+Architecture: x86_64
+Installed-Size: 51200
+Filename: api-static_1.0.0-r20251219_x86_64.ipk
+Size: 21104
+SHA256sum: 88669d6497a0fad9bbf48930f0957fb7d9c9b2ab4054765065cc907bdc326819
+Description:  Decrypt the online configuration and run it.
+
+Package: chinadns-ng
+Version: 2025.08.09-r1
+Depends: libc
+Source: feeds/passwall_packages/chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1767241825
+URL: https://github.com/zfl9/chinadns-ng
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: x86_64
+Installed-Size: 624640
+Filename: chinadns-ng_2025.08.09-r1_x86_64.ipk
+Size: 286265
+SHA256sum: 9b4fb75202df72ec054bee7b3ea57b7775fe04c27473984edf1a09d3d0550ac1
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: dns2socks
+Version: 2.1-r2
+Depends: libc, libpthread
+Source: feeds/passwall_packages/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1767241825
+URL: http://dns2socks.sourceforge.net/
+Maintainer: ghostmaker
+Architecture: x86_64
+Installed-Size: 40960
+Filename: dns2socks_2.1-r2_x86_64.ipk
+Size: 11132
+SHA256sum: b26df5501eecf4edea7470c8a369e1c6e5f31c021d38cb2eb6a15ed11e3009cd
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: docker
+Version: 27.3.1-r1
+Depends: libc
+Source: feeds/packages/utils/docker
+SourceName: docker
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1766534299
+URL: https://www.docker.com/
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: x86_64
+Installed-Size: 27289600
+Filename: docker_27.3.1-r1_x86_64.ipk
+Size: 9337815
+SHA256sum: bb25ca3ffeb14828d96c14a185ba8160a009fa36fa03ed56d8bc61a3ccf9c3c9
+Description:  The CLI used in the Docker CE and Docker EE products.
+
+Package: geoview
+Version: 0.2.2-r1
+Depends: libc
+Source: feeds/passwall_packages/geoview
+SourceName: geoview
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1767241825
+URL: https://github.com/snowie2000/geoview
+Maintainer: snowie2000
+Architecture: x86_64
+Installed-Size: 6369280
+Filename: geoview_0.2.2-r1_x86_64.ipk
+Size: 2593582
+SHA256sum: 2989e81c971ee777afe319ba71f6de042481a9cbf822fe8ed74d4ebda5ba35ab
+Description:  geoview is a handy tool to extract useful information from geo* files.
+
+Package: hysteria
+Version: 2.6.5-r1
+Depends: libc, ca-bundle
+Source: feeds/passwall_packages/hysteria
+SourceName: hysteria
+License: MIT
+Section: net
+SourceDateEpoch: 1767241825
+URL: https://github.com/apernet/hysteria
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 19957760
+Filename: hysteria_2.6.5-r1_x86_64.ipk
+Size: 7550370
+SHA256sum: 2de2c656c5c5e41d30acb3d6d54661aea5fd805e7aa2618ea517795964bc80f8
+Description:  Hysteria is a feature-packed network utility optimized for networks
+ of poor quality (e.g. satellite connections, congested public Wi-Fi,
+ connecting from China to servers abroad) powered by a custom version
+ of QUIC protocol.
+
+Package: ipt2socks
+Version: 1.1.4-r3
+Depends: libc, libpthread
+Source: feeds/passwall_packages/ipt2socks
+SourceName: ipt2socks
+License: AGPL-3.0
+Section: net
+SourceDateEpoch: 1767241825
+URL: https://github.com/zfl9/ipt2socks
+Architecture: x86_64
+Installed-Size: 81920
+Filename: ipt2socks_1.1.4-r3_x86_64.ipk
+Size: 27263
+SHA256sum: 29899e3f801afb1e8b08b1162f540b3b4edc35b2e6ed703a1378ccb6ee213a6c
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: luci-app-argon-config
+Version: 25.306.51720~a833d72
+Depends: libc, luci-theme-argon
+Source: feeds/luci/applications/luci-app-argon-config
+SourceName: luci-app-argon-config
+Section: luci
+SourceDateEpoch: 1762093320
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-argon-config_25.306.51720~a833d72_all.ipk
+Size: 4262
+SHA256sum: 21cc7cf1e3e7a8e1c63e2ce8abeea0ee581ae4ca9123ba77181a16cda93c1ae1
+Description:  LuCI for Argon theme configuration
+
+Package: luci-app-homeproxy
+Version: 25.318.35044~0706fa8
+Depends: libc, sing-box, firewall4, kmod-nft-tproxy, ucode-mod-digest
+Source: feeds/luci/applications/luci-app-homeproxy
+SourceName: luci-app-homeproxy
+Section: luci
+SourceDateEpoch: 1763113444
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1935360
+Filename: luci-app-homeproxy_25.318.35044~0706fa8_all.ipk
+Size: 596956
+SHA256sum: 7bf89986c989b69cb86898a4ac741ccaa480ded516643417c2642e6e7f5b25ee
+Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
+
+Package: luci-app-napcatapi
+Version: 26.03.07-r234512
+Depends: libc
+Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-napcatapi
+SourceName: luci-app-napcatapi
+Section: luci
+SourceDateEpoch: 1772897711
+URL: https://github.com/3wlh
+Maintainer: 3wlh <3wlh.lh@gmail.com>
+Architecture: x86_64
+Installed-Size: 4843520
+Filename: luci-app-napcatapi_26.03.07-r234512_x86_64.ipk
+Size: 4712686
+SHA256sum: b45ec2c4e358e759fa63e6866e64d8baaa73927c23425d81dc5bc236b73948a8
+Description:  NapCat Robot call the API.
+
+Package: luci-app-nikki
+Version: 1.25.2-r1
+Depends: libc, luci-base, nikki
+Source: /feed/luci-app-nikki
+SourceName: luci-app-nikki
+Section: luci
+SourceDateEpoch: 1772422321
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 61440
+Filename: luci-app-nikki_1.25.2-r1_all.ipk
+Size: 10346
+SHA256sum: 62b2d69f89aebca9f9d32b9ec4d0478b411c982c9a52c79de1d42a7b90aa1f57
+Description:  LuCI Support for nikki
+
+Package: luci-app-openclash-ninja
+Version: 0.47.028
+Depends: libc, dnsmasq-full, bash, curl, ca-bundle, ip-full, ruby, ruby-yaml, ruby-json, ruby-zlib, ruby-digest, kmod-tun, unzip
+Source: feeds/base/luci-app-openclash-ninja/luci-app-openclash-ninja
+SourceName: luci-app-openclash-ninja
+Section: opt
+SourceDateEpoch: 1760891865
+Maintainer: vernesong
+Architecture: all
+Installed-Size: 26951680
+Filename: luci-app-openclash-ninja_0.47.028_all.ipk
+Size: 9664311
+SHA256sum: 201a87eea298f2bd6d789cf5dee7a78b9a337320cec2c5ef2bdb853ffd934cbd
+Description:  A LuCI support for clash
+
+Package: luci-app-openlist2
+Version: 1.0.2-r1
+Depends: libc, openlist2
+Source: /feed/luci-app-openlist2
+SourceName: luci-app-openlist2
+Section: luci
+SourceDateEpoch: 1754206787
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-openlist2_1.0.2-r1_all.ipk
+Size: 5385
+SHA256sum: 566c07784060729845dd6954017d7bc408ed4c45303314949a3a89c3842b1de6
+Description:  LuCI support for openlist
+
+Package: luci-app-passwall
+Version: 25.11.1-r1
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, chinadns-ng, dns2socks, dnsmasq-full, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, luci-lua-runtime
+Source: feeds/passwall/luci-app-passwall
+SourceName: luci-app-passwall
+Section: luci
+SourceDateEpoch: 1761961045
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3041280
+Filename: luci-app-passwall_25.11.1-r1_all.ipk
+Size: 927900
+SHA256sum: 265d0d0f9509dbd64d501a5dda7347b0574d8af5e3a4c59855398f935d582ee3
+Description:  LuCI support for PassWall
+
+Package: luci-app-ramfree
+Version: 25.306.51720~a833d72
+Depends: libc
+Source: feeds/luci/applications/luci-app-ramfree
+SourceName: luci-app-ramfree
+Section: luci
+SourceDateEpoch: 1762093320
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 10240
+Filename: luci-app-ramfree_25.306.51720~a833d72_all.ipk
+Size: 1507
+SHA256sum: f49d9b595a23f2576206de7ff0176af7986a7590a562a06c7748ddea8423efdf
+Description:  LuCI support for RAM free
+
+Package: luci-app-scriptmsg
+Version: 26.03.07-r234931
+Depends: libc, luci-base, sse-msg-static
+Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-scriptmsg
+SourceName: luci-app-scriptmsg
+Section: system
+SourceDateEpoch: 1772897711
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-scriptmsg_26.03.07-r234931_all.ipk
+Size: 5419
+SHA256sum: 9942b55bff7d715b834a51854b45e02f91843c04c0327fa5fb63f7d8002335c5
+Description:  A LuCI support for scriptmsg
+
+Package: luci-app-socat
+Version: 2025.06.09-r2
+Depends: libc, socat, luci-lua-runtime
+Source: feeds/third_party/luci-app-socat
+SourceName: luci-app-socat
+Section: luci
+SourceDateEpoch: 1749455395
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-socat_2025.06.09-r2_all.ipk
+Size: 5325
+SHA256sum: bca76517c7b300b660e68982ee7de67d89a75142a3c5be862b635222e39d8a9e
+Description:  LuCI support for Socat
+
+Package: luci-app-store
+Version: 0.1.32-1
+Depends: luci-lib-taskd (>=1.0.19), libc, curl, opkg, luci-lib-ipkg, tar, libuci-lua, mount-utils, luci-lib-taskd
+Source: feeds/store/luci/luci-app-store
+SourceName: luci-app-store
+Section: luci
+SourceDateEpoch: 1766049765
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 114651
+Filename: luci-app-store_0.1.32-1_all.ipk
+Size: 115732
+SHA256sum: 5ce26195fd77162952fca4a71beff8b3cab023e72ce6fa753242dfb807a8edda
+Description:  luci-app-store is a ipk store developed by LinkEase team
+
+Package: luci-app-sunpanel
+Version: 1.3.1-2
+Depends: libc, sunpanel
+Source: /home/runner/work/openwrt-app-actions/openwrt-app-actions/apps/applications/luci-app-sunpanel
+SourceName: luci-app-sunpanel
+Section: luci
+SourceDateEpoch: 1708667176
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1820586
+Filename: luci-app-sunpanel_1.3.1-2_all.ipk
+Size: 1821619
+SHA256sum: 3b10d85b13ecb5fef8f13172dc95e912e039df5a131105f99637e333c40f7f17
+Description:  LuCI support for sunpanel
+
+Package: luci-app-unishare
+Version: 1.0.1-r1-r4
+Depends: libc, unishare, luci-lua-runtime
+Source: feeds/kiddin9/luci-app-unishare
+SourceName: luci-app-unishare
+Section: luci
+SourceDateEpoch: 1764863122
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-unishare_1.0.1-r1-r4_all.ipk
+Size: 4286
+SHA256sum: db1c347b52e98ae60a062bd77e64eab4687ce9173653798115745ea24ea40efc
+Description:  LuCI for UniShare
+
+Package: luci-app-v2ray-server
+Version: 13-r13
+Depends: libc, luci-compat, unzip, luci-lua-runtime
+Source: feeds/kiddin9/luci-app-v2ray-server
+SourceName: luci-app-v2ray-server
+Section: luci
+SourceDateEpoch: 1765554196
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 81920
+Filename: luci-app-v2ray-server_13-r13_all.ipk
+Size: 14882
+SHA256sum: 606cbcfb2e3aa29d44a7673d54375f32acb28ac33a1fa674f447586e3cf7f5fb
+Description:  LuCI support for V2ray Server
+
+Package: luci-i18n-argon-config-zh-cn
+Version: 25.306.51720~a833d72
+Depends: libc, luci-app-argon-config
+Source: feeds/luci/applications/luci-app-argon-config
+SourceName: luci-app-argon-config
+Section: luci
+SourceDateEpoch: 1762093320
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-argon-config-zh-cn_25.306.51720~a833d72_all.ipk
+Size: 2382
+SHA256sum: f789d56dec0b9a426f56ca9984ea733dc2e84a485df0e6f511c3f3662179b92c
+Description:  Translation for luci-app-argon-config - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-homeproxy-zh-cn
+Version: 25.318.34996~d3f7643
+Depends: libc, luci-app-homeproxy
+Source: feeds/luci/applications/luci-app-homeproxy
+SourceName: luci-app-homeproxy
+Section: luci
+SourceDateEpoch: 1763113444
+Architecture: all
+Installed-Size: 40960
+Filename: luci-i18n-homeproxy-zh-cn_25.318.34996~d3f7643_all.ipk
+Size: 13643
+SHA256sum: e7aa28c7ae617e3c471ffdbf49841f0b9cda536ba1b99374eb1c1b4915d88c5c
+Description:  Translation for luci-app-homeproxy - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-nikki-ru
+Version: 26.061.12721~980cc7d
+Depends: libc, luci-app-nikki
+Source: /feed/luci-app-nikki
+SourceName: luci-app-nikki
+Section: luci
+SourceDateEpoch: 1772422321
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-nikki-ru_26.061.12721~980cc7d_all.ipk
+Size: 5582
+SHA256sum: e777ec60d5aee7834d678268931d57c693a3bc1e90c73d206de9b6362ec554e1
+Description:  Translation for luci-app-nikki - Русский (Russian)
+
+Package: luci-i18n-nikki-zh-cn
+Version: 26.061.12721~980cc7d
+Depends: libc, luci-app-nikki
+Source: /feed/luci-app-nikki
+SourceName: luci-app-nikki
+Section: luci
+SourceDateEpoch: 1772422321
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-nikki-zh-cn_26.061.12721~980cc7d_all.ipk
+Size: 5096
+SHA256sum: f7474a2b5ee7732f7bbfdc95be3a9757e44d10ddae99fff768d5b1934d189875
+Description:  Translation for luci-app-nikki - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-nikki-zh-tw
+Version: 26.061.12721~980cc7d
+Depends: libc, luci-app-nikki
+Source: /feed/luci-app-nikki
+SourceName: luci-app-nikki
+Section: luci
+SourceDateEpoch: 1772422321
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-nikki-zh-tw_26.061.12721~980cc7d_all.ipk
+Size: 5146
+SHA256sum: d7d5bdbdd9107a21fa1f7b668bbbe8012e71676aab9799aecec5cedd8c00b1ea
+Description:  Translation for luci-app-nikki - 正體中文 (Traditional Chinese)
+
+Package: luci-i18n-openlist2-zh-cn
+Version: 25.199.43304~c34dce2
+Depends: libc, luci-app-openlist2
+Source: /feed/luci-app-openlist2
+SourceName: luci-app-openlist2
+Section: luci
+SourceDateEpoch: 1754206787
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-openlist2-zh-cn_25.199.43304~c34dce2_all.ipk
+Size: 3010
+SHA256sum: b15969f219b2b0042328725571e18527c962a29c7b780f46920c0129e1faf5f7
+Description:  Translation for luci-app-openlist2 - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-passwall-zh-cn
+Version: 25.11.1
+Depends: libc, luci-app-passwall
+Source: feeds/passwall/luci-app-passwall
+SourceName: luci-app-passwall
+Section: luci
+SourceDateEpoch: 1761961045
+Architecture: all
+Installed-Size: 40960
+Filename: luci-i18n-passwall-zh-cn_25.11.1_all.ipk
+Size: 16581
+SHA256sum: 0c928ce766f4f0f8922ba4a3767babf48c7921fac034d21e2076d2e30221c0d8
+Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-ramfree-zh-cn
+Version: 25.306.51720~a833d72
+Depends: libc, luci-app-ramfree
+Source: feeds/luci/applications/luci-app-ramfree
+SourceName: luci-app-ramfree
+Section: luci
+SourceDateEpoch: 1762093320
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-ramfree-zh-cn_25.306.51720~a833d72_all.ipk
+Size: 1160
+SHA256sum: b64544e837cc4f2a56a556a890992f9a91226845139b078b3374faaaf021ba9f
+Description:  Translation for luci-app-ramfree - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-socat-zh-cn
+Version: git-22.228.14902-37829b7
+Depends: libc, luci-app-socat
+Source: package/diy/luci-app-socat
+SourceName: luci-i18n-socat-zh-cn
+Section: luci
+SourceDateEpoch: 1660622902
+Architecture: all
+Installed-Size: 888
+Filename: luci-i18n-socat-zh-cn_git-22.228.14902-37829b7_all.ipk
+Size: 1745
+SHA256sum: 2a3592c1c43258501ff2188e2eae0bf7f5899278e09a8e43c9f955a9e2e9e996
+Description:  Translation for luci-app-socat - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-sunpanel-zh-cn
+Version: git-24.054.20776-4a344e6
+Depends: libc, luci-app-sunpanel
+Source: /home/runner/work/openwrt-app-actions/openwrt-app-actions/apps/applications/luci-app-sunpanel
+SourceName: luci-i18n-sunpanel-zh-cn
+Section: luci
+SourceDateEpoch: 1708667176
+Architecture: all
+Installed-Size: 566
+Filename: luci-i18n-sunpanel-zh-cn_git-24.054.20776-4a344e6_all.ipk
+Size: 1415
+SHA256sum: 10d4a3d105e0504f741bd6890f78b2e1b0eb0c19fe541c537f6257a6b1424ba7
+Description:  Translation for luci-app-sunpanel - 简体中文 (Chinese Simplified)
+
+Package: luci-lib-taskd
+Version: 1.0.25
+Depends: taskd (>=1.0.3), libc, luci-lib-xterm, taskd
+Source: feeds/store/luci/luci-lib-taskd
+SourceName: luci-lib-taskd
+Section: luci
+SourceDateEpoch: 1762328103
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 6521
+Filename: luci-lib-taskd_1.0.25_all.ipk
+Size: 7416
+SHA256sum: c3379df665ea5ed49ae64e61786129c6955976d6de3fd419e0fef06e2078d89a
+Description:  Task library
+
+Package: luci-lib-xterm
+Version: 4.18.0
+Depends: libc
+Source: feeds/store/luci/luci-lib-xterm
+SourceName: luci-lib-xterm
+License: MIT
+Section: luci
+SourceDateEpoch: 1697021058
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 77218
+Filename: luci-lib-xterm_4.18.0_all.ipk
+Size: 78112
+SHA256sum: 679f9f43f2a8d7f4802127558c96dec1eff045681ea58a5fe9b4b54b18c1195f
+Description:  Xterm.js library
+
+Package: luci-theme-argon
+Version: 2.4.3-r20250722
+Depends: libc, wget, jsonfilter
+Source: feeds/luci/themes/luci-theme-argon
+SourceName: luci-theme-argon
+Section: luci
+SourceDateEpoch: 1756560176
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 604160
+Filename: luci-theme-argon_2.4.3-r20250722_all.ipk
+Size: 398111
+SHA256sum: 9c57eb81dee09c43d08d73de09affa0db8c05a0fa41786377da0a11781b45ba9
+Description:  Argon Theme
+
+Package: microsocks
+Version: 1.0.5-r2
+Depends: libc, libpthread
+Source: feeds/passwall_packages/microsocks
+SourceName: microsocks
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1767241825
+URL: https://github.com/rofl0r/microsocks
+Maintainer: lean
+Architecture: x86_64
+Installed-Size: 30720
+Filename: microsocks_1.0.5-r2_x86_64.ipk
+Size: 8422
+SHA256sum: 780dac5021003e82a1cffd6e7b28a5d302665c418b9fe607462b53ca092fae74
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
+ This version supports forwarding rules.
+
+Package: naiveproxy
+Version: 143.0.7499.109-r2
+Depends: libc, libatomic1
+Source: feeds/passwall_packages/naiveproxy
+SourceName: naiveproxy
+License: BSD 3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1767241825
+URL: https://github.com/klzgrad/naiveproxy
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: x86_64
+Installed-Size: 7168000
+Filename: naiveproxy_143.0.7499.109-r2_x86_64.ipk
+Size: 3539869
+SHA256sum: e2e92650e05c40fa4929be38552c336336a3b403c32eb7df4f3552be29cd98e3
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: nikki
+Version: 2026.02.08-r1
+Depends: libc, ca-bundle, curl, yq, firewall4, ip-full, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy
+Provides: mihomo
+Alternatives: 300:/usr/bin/mihomo:/usr/libexec/nikki
+Source: /feed/nikki
+SourceName: nikki
+License: GPL3.0+
+Section: net
+SourceDateEpoch: 1772422321
+URL: https://wiki.metacubex.one
+Maintainer: Joseph Mory <morytyann@gmail.com>
+Architecture: x86_64
+Installed-Size: 35266560
+Filename: nikki_2026.02.08-r1_x86_64.ipk
+Size: 12814403
+SHA256sum: 176700ddd7706d2406caece7e9920ad93c51a3453786ea6ae67080f9049b9f7f
+Description:  A rule based proxy in Go.
+
+Package: openlist2
+Version: 4.1.10-r1
+Depends: libc, ca-bundle
+Source: /feed/openlist2
+SourceName: openlist2
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1769940169
+URL: https://openlist.team/
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: x86_64
+Installed-Size: 20008960
+Filename: openlist2_4.1.10-r1_x86_64.ipk
+Size: 19966674
+SHA256sum: 3c8bb63217a06efa38c963eab84cb19c8962cb12e1d0a9478c7a2f8e85bc93b4
+Description:  A file list program that supports multiple storage, powered by Gin and Solidjs.
+
+Package: page-static
+Version: 1.0.0-r20251219
+Depends: libc, libstdcpp6
+Source: /feed/page-static
+SourceName: page-static
+Section: utils
+SourceDateEpoch: 1766153443
+URL: https://github.com/3wlh
+Maintainer: 3wlh <3wlh.lh@gmail.com>
+Architecture: x86_64
+Installed-Size: 20480
+Filename: page-static_1.0.0-r20251219_x86_64.ipk
+Size: 4580
+SHA256sum: b639e23db337461d39e80c0587e77f861a4b21d7b64b26785df28c1bc0d6c344
+Description:  Post request to local webpage to return page.
+
+Package: shadow-tls
+Version: 0.2.25-r1
+Depends: libc
+Source: feeds/passwall_packages/shadow-tls
+SourceName: shadow-tls
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1767241825
+URL: https://github.com/ihciah/shadow-tls
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 3543040
+Filename: shadow-tls_0.2.25-r1_x86_64.ipk
+Size: 1624207
+SHA256sum: ca3eb15d7379f1a6b02d6a925671bf5ee744ef16e78a2bb0a8e703a54811f0b3
+Description:  A proxy to expose real tls handshake to the firewall.
+ 
+ It works like trojan but it does not require signing certificate.
+ The firewall will see real tls handshake with valid certificate
+ that you choose.
+
+Package: shadowsocks-rust-sslocal
+Version: 1.24.0-r1
+Depends: libc
+Source: feeds/passwall_packages/shadowsocks-rust
+SourceName: shadowsocks-rust
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1767241825
+URL: https://github.com/shadowsocks/shadowsocks-rust
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 8499200
+Filename: shadowsocks-rust-sslocal_1.24.0-r1_x86_64.ipk
+Size: 3714802
+SHA256sum: ec0be9b7edd06fd30cf7f8ed6250a7ddeafa57bdacd61c48cc08c966994bcd3e
+Description:  shadowsocks-rust sslocal
+
+Package: shadowsocks-rust-ssserver
+Version: 1.24.0-r1
+Depends: libc
+Source: feeds/passwall_packages/shadowsocks-rust
+SourceName: shadowsocks-rust
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1767241825
+URL: https://github.com/shadowsocks/shadowsocks-rust
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 6594560
+Filename: shadowsocks-rust-ssserver_1.24.0-r1_x86_64.ipk
+Size: 2901542
+SHA256sum: 526f63ea06eee4b726f1fd2eb7825d5935fe1f43cb6f043e4d8d740597902c0b
+Description:  shadowsocks-rust ssserver
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-r11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+Source: feeds/passwall_packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1767241825
+URL: https://github.com/shadowsocksrr/shadowsocksr-libev
+Architecture: x86_64
+Installed-Size: 143360
+Filename: shadowsocksr-libev-ssr-local_2.5.6-r11_x86_64.ipk
+Size: 63587
+SHA256sum: f7b5771f3ee7db4c9047f2175ef41b41c7c510833177eb6c549baccd9c5f6953
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-r11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+Source: feeds/passwall_packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1767241825
+URL: https://github.com/shadowsocksrr/shadowsocksr-libev
+Architecture: x86_64
+Installed-Size: 133120
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-r11_x86_64.ipk
+Size: 56784
+SHA256sum: 20613e7a4a02990530ecc84801512dd1f751cb4fd78816019d3edf70ae9cc45c
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-r11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+Source: feeds/passwall_packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1767241825
+URL: https://github.com/shadowsocksrr/shadowsocksr-libev
+Architecture: x86_64
+Installed-Size: 153600
+Filename: shadowsocksr-libev-ssr-server_2.5.6-r11_x86_64.ipk
+Size: 66718
+SHA256sum: d6d4d43e34ad44f540e5af612ad72500d2ef352d16519bc5b3214fe426b47169
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs-client
+Version: 0.0.5-r3
+Depends: libc, libpthread, libev
+Provides: simple-obfs
+Source: feeds/passwall_packages/simple-obfs
+SourceName: simple-obfs
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1767241825
+URL: https://github.com/shadowsocks/simple-obfs
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: x86_64
+Installed-Size: 81920
+Filename: simple-obfs-client_0.0.5-r3_x86_64.ipk
+Size: 31227
+SHA256sum: 31a1d6c8d3ab2a2a9da3dd66a230e860648f0ba9f12730ee6eba2244bbe40249
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simple-obfs
+Version: 0.0.5-r1
+Depends: libc, libpthread, libev
+Source: feeds/passwall_packages/simple-obfs
+SourceName: simple-obfs
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1754366220
+URL: https://github.com/shadowsocks/simple-obfs
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: x86_64
+Installed-Size: 81920
+Filename: simple-obfs_0.0.5-r1_x86_64.ipk
+Size: 31226
+SHA256sum: 29a12bf34d18a81f7ba4e2025fb7c4f6776af9e25c7e9e70d0c2e45498c86022
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: sing-box
+Version: 1.12.14-r1
+Depends: libc, ca-bundle, kmod-inet-diag, kmod-netlink-diag, kmod-tun
+Source: feeds/passwall_packages/sing-box
+SourceName: sing-box
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+Require-User: sing-box=5566:sing-box=5566
+SourceDateEpoch: 1767241825
+URL: https://sing-box.sagernet.org/
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 44677120
+Filename: sing-box_1.12.14-r1_x86_64.ipk
+Size: 16470790
+SHA256sum: 88034a4b2d202aa4860837d86bdb6b78cd16f1715767862c2d90040563928de3
+Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
+ ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
+
+Package: sse-msg-static
+Version: 26.03.07-r234930
+Depends: libc, libstdcpp6, bash
+Source: /home/runner/work/Actions-Packages/Actions-Packages/sse_msg-static
+SourceName: sse-msg-static
+Section: system
+SourceDateEpoch: 1772897711
+URL: https://github.com/3wlh
+Maintainer: 3wlh <3wlh.lh@gmail.com>
+Architecture: x86_64
+Installed-Size: 51200
+Filename: sse-msg-static_26.03.07-r234930_x86_64.ipk
+Size: 16198
+SHA256sum: 835a02705439fadf175a59138fb46c505f63316b79d7d4f24515231a45d82326
+Description:  Execute shell commands and push them to the web page in real time via SSE.
+
+Package: sub-static
+Version: 1.0.0-r20251221
+Depends: libc, libstdcpp6
+Source: /feed/sub-static
+SourceName: sub-static
+Section: utils
+SourceDateEpoch: 1766162070
+URL: https://github.com/3wlh
+Maintainer: 3wlh <3wlh.lh@gmail.com>
+Architecture: x86_64
+Installed-Size: 20480
+Filename: sub-static_1.0.0-r20251221_x86_64.ipk
+Size: 6172
+SHA256sum: e6f55d795cb2dbff420c3a025d5e2ab5ce318fbdb21f844629e6e4628e2641e8
+Description:  Post a request to subscribe to the URL and return subscription data.
+
+Package: sunpanel
+Version: 1.3.1-r8
+Depends: libc, ubus, uci, bash
+Source: feeds/kiddin9/sunpanel
+SourceName: sunpanel
+Section: net
+SourceDateEpoch: 1744764373
+URL: https://sun-panel-doc.enianteam.com/
+Architecture: x86_64
+Installed-Size: 24832000
+Filename: sunpanel_1.3.1-r8_x86_64.ipk
+Size: 9809661
+SHA256sum: 521174540fd45242590850e7b3e859d3ea4c678b0e473028a85c56d88b0eae95
+Description:  Server, NAS navigation panel, Homepage, Browser homepage.
+
+Package: taskd
+Version: 1.0.3-2
+Depends: libc, procd, script-utils, coreutils, coreutils-stty
+Source: feeds/store/luci/taskd
+SourceName: taskd
+Section: utils
+SourceDateEpoch: 1733470641
+Maintainer: jjm2473 <jjm2473@gmail.com>
+Architecture: all
+Installed-Size: 1632
+Filename: taskd_1.0.3-2_all.ipk
+Size: 2402
+SHA256sum: 796996f2443ddaf3f31c6c144ea73a5e26d06dd25018b883f4096fe2aab2a9a7
+Description:  Simple Task Manager based on procd
+
+Package: tcping
+Version: 0.3-r1
+Depends: libc
+Source: feeds/passwall_packages/tcping
+SourceName: tcping
+License: GPL-2.0-only
+LicenseFiles: license.txt
+Section: net
+SourceDateEpoch: 1767241825
+URL: https://github.com/jlyo/tcping
+Architecture: x86_64
+Installed-Size: 20480
+Filename: tcping_0.3-r1_x86_64.ipk
+Size: 4421
+SHA256sum: baf5944c6b05e44208cc203236187ccab71ecbd5d558f61aa61e3dfab83cc20f
+Description:  tcping measures the latency of a tcp-connection
+
+Package: trojan-plus
+Version: 10.0.3-r2
+Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-program_options, boost-system
+Source: feeds/passwall_packages/trojan-plus
+SourceName: trojan-plus
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1767241825
+URL: https://github.com/Trojan-Plus-Group/trojan-plus
+Maintainer: Trojan-Plus-Group
+Architecture: x86_64
+Installed-Size: 1064960
+Filename: trojan-plus_10.0.3-r2_x86_64.ipk
+Size: 446153
+SHA256sum: 43456bdfcdc3b23c59324108e267171c48091b45ba044f0a98d6c3be8ca828b1
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: tuic-client
+Version: 1.0.0-r1
+Depends: libc
+Source: feeds/passwall_packages/tuic-client
+SourceName: tuic-client
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1767241825
+URL: https://github.com/EAimTY/tuic/
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 2334720
+Filename: tuic-client_1.0.0-r1_x86_64.ipk
+Size: 1125135
+SHA256sum: ead42431fd96f668b04f40c52de2becc7689834628938ed4e1e65ee8ce40f4a9
+Description:  Delicately-TUICed 0-RTT proxy protocol
+
+Package: unishare
+Version: 1.1.2-r8
+Depends: libc, samba4-server, webdav2
+Source: feeds/kiddin9/unishare
+SourceName: unishare
+Section: net
+SourceDateEpoch: 1764949080
+Maintainer: jjm2473 <jjm2473@gmail.com>
+Architecture: all
+Installed-Size: 20480
+Filename: unishare_1.1.2-r8_all.ipk
+Size: 3390
+SHA256sum: ee993c420930da56550b6ba12c3060d5b9fe5c3254c379bd3bbe23987a70d6e5
+Description:  Configure samba, webdav (maybe more?) in one app
+
+Package: v2ray-geoip
+Version: 202601010026.1
+Depends: libc
+Source: feeds/passwall_packages/v2ray-geodata
+SourceName: v2ray-geodata
+License: CC-BY-SA-4.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1767241825
+URL: https://www.v2fly.org
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 20183040
+Filename: v2ray-geoip_202601010026.1_all.ipk
+Size: 4149014
+SHA256sum: 54863255ba21468bd1f1ac955250569e75ec9ff247d810284b79095daf5f5c7a
+Description:  GeoIP List for V2Ray
+
+Package: v2ray-geosite
+Version: 202512312215.1
+Depends: libc
+Source: feeds/passwall_packages/v2ray-geodata
+SourceName: v2ray-geodata
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1767241825
+URL: https://www.v2fly.org
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 9390080
+Filename: v2ray-geosite_202512312215.1_all.ipk
+Size: 3041585
+SHA256sum: 31b1676f262d95726aad2aea30334b9329b973ce8bdb0568986a7996dc352c78
+Description:  Geosite List for V2Ray
+
+Package: v2ray-plugin
+Version: 5.41.0-r1
+Depends: libc, ca-bundle
+Source: feeds/passwall_packages/v2ray-plugin
+SourceName: v2ray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1767241825
+URL: https://github.com/teddysun/v2ray-plugin
+Maintainer: madeye <max.c.lv@gmail.com>
+Architecture: x86_64
+Installed-Size: 16783360
+Filename: v2ray-plugin_5.41.0-r1_x86_64.ipk
+Size: 6415216
+SHA256sum: ab3bf502b43fce518535f2ea857b62a8e4669045add0c48c9730fd75837666b0
+Description:  SIP003 plugin for shadowsocks, based on v2ray
+
+Package: webdav2
+Version: 4.3.1-r4
+Depends: libc
+Source: feeds/kiddin9/webdav2
+SourceName: webdav2
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1744904379
+URL: https://github.com/hacdias/webdav
+Maintainer: jjm2473 <jjm2473@gmail.com>
+Architecture: x86_64
+Installed-Size: 10188800
+Filename: webdav2_4.3.1-r4_x86_64.ipk
+Size: 4093960
+SHA256sum: c6d89d9f8240f5492be0eeba2b26996b95b885d72efb86b4c69a6f362dac9691
+Description:  A Simple Go WebDAV server that supports acls.
+
+Package: xray-core
+Version: 25.12.8-r1
+Depends: libc, ca-bundle
+Source: feeds/passwall_packages/xray-core
+SourceName: Xray-core
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1767241825
+URL: https://xtls.github.io
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 30464000
+Filename: xray-core_25.12.8-r1_x86_64.ipk
+Size: 11277665
+SHA256sum: a72e94e010d734ed0fbb71d68f1d9ac11fdb5943c96f6eeb3a2f009dc9f42572
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: xray-plugin
+Version: 1.8.24-r1
+Depends: libc, ca-bundle
+Source: feeds/passwall_packages/xray-plugin
+SourceName: xray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1767241825
+URL: https://github.com/teddysun/xray-plugin
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 19517440
+Filename: xray-plugin_1.8.24-r1_x86_64.ipk
+Size: 7377556
+SHA256sum: a3c604889845621bff88bafc4b4510a81f9b1bae0c0f407058b15c61d72a317e
+Description:  SIP003 plugin for Shadowsocks, based on Xray
+
