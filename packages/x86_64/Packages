@@ -155,7 +155,7 @@ SHA256sum: 7bf89986c989b69cb86898a4ac741ccaa480ded516643417c2642e6e7f5b25ee
 Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
 
 Package: luci-app-napcatapi
-Version: 26.03.09-r210617
+Version: 26.03.09-r212451
 Depends: libc
 Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-napcatapi
 SourceName: luci-app-napcatapi
@@ -165,9 +165,9 @@ URL: https://github.com/3wlh
 Maintainer: 3wlh <3wlh.lh@gmail.com>
 Architecture: x86_64
 Installed-Size: 5478400
-Filename: luci-app-napcatapi_26.03.09-r210617_x86_64.ipk
-Size: 5307834
-SHA256sum: fed6493ed656d5a49a1aea0b10d20b8ee2ee6776129e83d5812da4ab42c8a878
+Filename: luci-app-napcatapi_26.03.09-r212451_x86_64.ipk
+Size: 5307737
+SHA256sum: eb6184b42848590dce97ab0439eddf7e4d822c00e365ef598451bfd305f0bfd9
 Description:  NapCat Robot call the API.
 
 Package: luci-app-nikki
