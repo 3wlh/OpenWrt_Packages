@@ -50,24 +50,6 @@ SHA256sum: 639cd5b5730461b59ec57805744f52e836cb19f7747ad0702bacfdab903ea49d
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
-Package: docker
-Version: 27.3.1-r1
-Depends: libc
-Source: feeds/packages/utils/docker
-SourceName: docker
-License: Apache-2.0
-LicenseFiles: LICENSE
-Section: utils
-SourceDateEpoch: 1766916625
-URL: https://www.docker.com/
-Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
-Architecture: aarch64_generic
-Installed-Size: 26337280
-Filename: docker_27.3.1-r1_aarch64_generic.ipk
-Size: 8518659
-SHA256sum: e744ba1243814f1820e675f40b9eb7f510edcb81da26218aa4c9230072bdeb0a
-Description:  The CLI used in the Docker CE and Docker EE products.
-
 Package: geoview
 Version: 0.2.2-r1
 Depends: libc
@@ -309,22 +291,6 @@ Size: 1821619
 SHA256sum: 3b10d85b13ecb5fef8f13172dc95e912e039df5a131105f99637e333c40f7f17
 Description:  LuCI support for sunpanel
 
-Package: luci-app-unishare
-Version: 1.0.1-r1-r4
-Depends: libc, unishare, luci-lua-runtime
-Source: feeds/kiddin9/luci-app-unishare
-SourceName: luci-app-unishare
-Section: luci
-SourceDateEpoch: 1764849818
-URL: https://github.com/openwrt/luci
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 30720
-Filename: luci-app-unishare_1.0.1-r1-r4_all.ipk
-Size: 4282
-SHA256sum: dbbdaf285be1cf4382f71104de20e048bb29a6a3183ed5acc246762f611a6bdf
-Description:  LuCI for UniShare
-
 Package: luci-app-v2ray-server
 Version: 13-r13
 Depends: libc, luci-compat, unzip, luci-lua-runtime
@@ -492,8 +458,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 6521
 Filename: luci-lib-taskd_1.0.25_all.ipk
-Size: 7416
-SHA256sum: c3379df665ea5ed49ae64e61786129c6955976d6de3fd419e0fef06e2078d89a
+Size: 7413
+SHA256sum: d1969e3824fac02e09a8129e227906ea2b6fdcf4b4d64144f054ee4cb608349a
 Description:  Task library
 
 Package: luci-lib-xterm
