@@ -1,9 +1,10 @@
 Package:openlist2 https://github.com/sbwml/luci-app-openlist2/releases/download/v4.1.10/openwrt-24.10-aarch64_generic.tar.gz
 Package:nikki https://github.com/nikkinikki-org/OpenWrt-nikki/releases/download/v1.25.2/nikki_aarch64_generic-openwrt-24.10.tar.gz
 Package:passwall 
-Package:openclash https://github.com/3wlh/Actions-Packages/releases/download/GitHub-Actions_luci-app-openclash-ninja/luci-app-openclash-ninja_0.47.028_all.ipk
+Package:openclash 
 Package:api-static 
 Package:page-static 
 Package:sub-static https://github.com/3wlh/Actions-Packages/releases/download/GitHub-Actions_sub-static/sub-static-openwrt-24.10-aarch64_generic_2025.12.22_010735.tar.gz
-Package:luci-app-napcatapi https://github.com/3wlh/Actions-Packages/releases/download/GitHub-Actions_luci-app-napcatapi/luci-app-napcatapi-24.10-aarch64_generic_2026.03.10_193007.tar.gz
-Package:luci-app-scriptmsg https://github.com/3wlh/Actions-Packages/releases/download/GitHub-Actions_luci-app-scriptmsg/luci-app-scriptmsg-24.10-aarch64_generic_2026.03.07_234901.tar.gz
+Package:luci-app-napcatapi https://github.com/3wlh/OpenWrt_Packages/releases/download/GitHub-Actions_luci-app-napcatapi/luci-app-napcatapi-24.10-aarch64_generic_2026.03.14_184854.tar.gz
+Package:luci-app-scriptmsg https://github.com/3wlh/OpenWrt_Packages/releases/download/GitHub-Actions_luci-app-scriptmsg/luci-app-scriptmsg-24.10-aarch64_generic_2026.03.14_185230.tar.gz
+Package:luci-app-dnsto https://github.com/3wlh/OpenWrt_Packages/releases/download/GitHub-Actions_luci-app-dnsto/luci-app-dnsto-24.10-aarch64_generic_2026.03.14_204203.tar.gz
