@@ -50,6 +50,24 @@ SHA256sum: b26df5501eecf4edea7470c8a369e1c6e5f31c021d38cb2eb6a15ed11e3009cd
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
+Package: docker
+Version: 27.3.1-r1
+Depends: libc
+Source: feeds/packages/utils/docker
+SourceName: docker
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1773474815
+URL: https://www.docker.com/
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: x86_64
+Installed-Size: 27289600
+Filename: docker_27.3.1-r1_x86_64.ipk
+Size: 9337564
+SHA256sum: 9daef5f2dd8da60d2d57c4bbb4e68222824f0080c2613292f17781571f779239
+Description:  The CLI used in the Docker CE and Docker EE products.
+
 Package: geoview
 Version: 0.2.2-r1
 Depends: libc
@@ -121,19 +139,19 @@ SHA256sum: 21cc7cf1e3e7a8e1c63e2ce8abeea0ee581ae4ca9123ba77181a16cda93c1ae1
 Description:  LuCI for Argon theme configuration
 
 Package: luci-app-dnsto
-Version: 26.03.14-r204237
+Version: 26.03.17-r154737
 Depends: libc
 Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-dnsto
 SourceName: luci-app-dnsto
 Section: luci
-SourceDateEpoch: 1773492127
+SourceDateEpoch: 1773733556
 URL: https://github.com/3wlh
 Maintainer: 3wlh <3wlh.lh@gmail.com>
 Architecture: x86_64
 Installed-Size: 3594240
-Filename: luci-app-dnsto_26.03.14-r204237_x86_64.ipk
-Size: 3471308
-SHA256sum: 5c11f0e36e4a000a845590bffb279e651b12db25b09f4ca66218162264fd86a5
+Filename: luci-app-dnsto_26.03.17-r154737_x86_64.ipk
+Size: 3471202
+SHA256sum: 2d541822a1cf47e76ea97286630ec2b2dcd37d8b2ed3447319f39a863c92b842
 Description:  NapCat Robot call the API.
 
 Package: luci-app-homeproxy
@@ -153,19 +171,19 @@ SHA256sum: 7bf89986c989b69cb86898a4ac741ccaa480ded516643417c2642e6e7f5b25ee
 Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
 
 Package: luci-app-napcatapi
-Version: 26.03.14-r184934
+Version: 26.03.17-r154709
 Depends: libc
 Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-napcatapi
 SourceName: luci-app-napcatapi
 Section: luci
-SourceDateEpoch: 1773485339
+SourceDateEpoch: 1773733556
 URL: https://github.com/3wlh
 Maintainer: 3wlh <3wlh.lh@gmail.com>
 Architecture: x86_64
 Installed-Size: 5488640
-Filename: luci-app-napcatapi_26.03.14-r184934_x86_64.ipk
-Size: 5312748
-SHA256sum: 5b688eece66bb1356349edced74c4f02fc1474c2cec54ade47d74cb51fcdd3a7
+Filename: luci-app-napcatapi_26.03.17-r154709_x86_64.ipk
+Size: 5312585
+SHA256sum: 8336272baea681e3007ececbab1b6c19bfc8a0a134f9225ff6737a5b0dc76e26
 Description:  NapCat Robot call the API.
 
 Package: luci-app-nikki
@@ -248,17 +266,17 @@ SHA256sum: f49d9b595a23f2576206de7ff0176af7986a7590a562a06c7748ddea8423efdf
 Description:  LuCI support for RAM free
 
 Package: luci-app-scriptmsg
-Version: 26.03.14-r185308
+Version: 26.03.17-r000108
 Depends: libc, luci-base, sse-msg-static
 Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-scriptmsg
 SourceName: luci-app-scriptmsg
 Section: system
-SourceDateEpoch: 1773485339
+SourceDateEpoch: 1773676824
 Architecture: all
 Installed-Size: 30720
-Filename: luci-app-scriptmsg_26.03.14-r185308_all.ipk
-Size: 5423
-SHA256sum: 378792cb4692c566bfbc4d2213aa8ae83573d58d59640595b9f2b8b270d802f6
+Filename: luci-app-scriptmsg_26.03.17-r000108_all.ipk
+Size: 5655
+SHA256sum: 4d5214458be1532018f3544e064bbe3c1b9f627e9a0b64d669e8950c2dc4b4c9
 Description:  A LuCI support for scriptmsg
 
 Package: luci-app-socat
@@ -306,6 +324,22 @@ Filename: luci-app-sunpanel_1.3.1-2_all.ipk
 Size: 1821619
 SHA256sum: 3b10d85b13ecb5fef8f13172dc95e912e039df5a131105f99637e333c40f7f17
 Description:  LuCI support for sunpanel
+
+Package: luci-app-unishare
+Version: 1.0.1-r1-r4
+Depends: libc, unishare, luci-lua-runtime
+Source: feeds/kiddin9/luci-app-unishare
+SourceName: luci-app-unishare
+Section: luci
+SourceDateEpoch: 1764863122
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-unishare_1.0.1-r1-r4_all.ipk
+Size: 4286
+SHA256sum: db1c347b52e98ae60a062bd77e64eab4687ce9173653798115745ea24ea40efc
+Description:  LuCI for UniShare
 
 Package: luci-app-v2ray-server
 Version: 13-r13
@@ -769,19 +803,19 @@ Description:  Sing-box is a universal proxy platform which supports hysteria, SO
  ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 
 Package: sse-msg-static
-Version: 26.03.14-r185307
+Version: 26.03.17-r000106
 Depends: libc, libstdcpp6, bash
 Source: /home/runner/work/Actions-Packages/Actions-Packages/sse_msg-static
 SourceName: sse-msg-static
 Section: system
-SourceDateEpoch: 1773485339
+SourceDateEpoch: 1773676824
 URL: https://github.com/3wlh
 Maintainer: 3wlh <3wlh.lh@gmail.com>
 Architecture: x86_64
 Installed-Size: 51200
-Filename: sse-msg-static_26.03.14-r185307_x86_64.ipk
-Size: 16217
-SHA256sum: 5074628f001e2a57bbe05c1b418d8d64574d45e64b000f751ed0f80daf045f67
+Filename: sse-msg-static_26.03.17-r000106_x86_64.ipk
+Size: 16066
+SHA256sum: 755d71d132aaec53edb554c29f5a196c523885000f0785400ca5f8b09f288f66
 Description:  Execute shell commands and push them to the web page in real time via SSE.
 
 Package: sub-static
