@@ -50,24 +50,6 @@ SHA256sum: b26df5501eecf4edea7470c8a369e1c6e5f31c021d38cb2eb6a15ed11e3009cd
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
-Package: docker
-Version: 27.3.1-r1
-Depends: libc
-Source: feeds/packages/utils/docker
-SourceName: docker
-License: Apache-2.0
-LicenseFiles: LICENSE
-Section: utils
-SourceDateEpoch: 1774027414
-URL: https://www.docker.com/
-Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
-Architecture: x86_64
-Installed-Size: 27289600
-Filename: docker_27.3.1-r1_x86_64.ipk
-Size: 9337542
-SHA256sum: 517ad8a9951178d452cd43cf70a7ef43b63688cd808e2c271266ab511dc56206
-Description:  The CLI used in the Docker CE and Docker EE products.
-
 Package: geoview
 Version: 0.2.2-r1
 Depends: libc
@@ -138,22 +120,6 @@ Size: 4262
 SHA256sum: 21cc7cf1e3e7a8e1c63e2ce8abeea0ee581ae4ca9123ba77181a16cda93c1ae1
 Description:  LuCI for Argon theme configuration
 
-Package: luci-app-dnsto
-Version: 26.03.21-r180118
-Depends: libc
-Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-dnsto
-SourceName: luci-app-dnsto
-Section: luci
-SourceDateEpoch: 1773925208
-URL: https://github.com/3wlh
-Maintainer: 3wlh <3wlh.lh@gmail.com>
-Architecture: x86_64
-Installed-Size: 3604480
-Filename: luci-app-dnsto_26.03.21-r180118_x86_64.ipk
-Size: 3482542
-SHA256sum: 98c95bf30f75d0b209c774cbb6d3c01436ffb2de1d118aa1cfbb839cccdc122b
-Description:  NapCat Robot call the API.
-
 Package: luci-app-homeproxy
 Version: 25.318.35044~0706fa8
 Depends: libc, sing-box, firewall4, kmod-nft-tproxy, ucode-mod-digest
@@ -170,20 +136,36 @@ Size: 596956
 SHA256sum: 7bf89986c989b69cb86898a4ac741ccaa480ded516643417c2642e6e7f5b25ee
 Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
 
+Package: luci-app-mddns
+Version: 26.03.23-r134528
+Depends: libc
+Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-mddns
+SourceName: luci-app-mddns
+Section: luci
+SourceDateEpoch: 1774243635
+URL: https://github.com/3wlh
+Maintainer: 3wlh <3wlh.lh@gmail.com>
+Architecture: x86_64
+Installed-Size: 3604480
+Filename: luci-app-mddns_26.03.23-r134528_x86_64.ipk
+Size: 3482698
+SHA256sum: 0521540357374b3c73572e5c83d6bfd7120d2ccac63cc28b1acb46d582e6bb97
+Description:  A lightweight multi-DDNS automatic update utility for OpenWrt.
+
 Package: luci-app-napcatapi
-Version: 26.03.17-r172941
+Version: 26.03.23-r132845
 Depends: libc
 Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-napcatapi
 SourceName: luci-app-napcatapi
 Section: luci
-SourceDateEpoch: 1773734669
+SourceDateEpoch: 1774243635
 URL: https://github.com/3wlh
 Maintainer: 3wlh <3wlh.lh@gmail.com>
 Architecture: x86_64
 Installed-Size: 5488640
-Filename: luci-app-napcatapi_26.03.17-r172941_x86_64.ipk
-Size: 5314554
-SHA256sum: 088be2174e399a5ccee372f416f79052de9a5e000bc33302d960653045ee83c5
+Filename: luci-app-napcatapi_26.03.23-r132845_x86_64.ipk
+Size: 5314512
+SHA256sum: 5081e1f13bfda9aad919dc36b99d35f75b03f93d06524f2dc4d37df3fe3bfec8
 Description:  NapCat Robot call the API.
 
 Package: luci-app-nikki
@@ -265,19 +247,19 @@ Size: 1507
 SHA256sum: f49d9b595a23f2576206de7ff0176af7986a7590a562a06c7748ddea8423efdf
 Description:  LuCI support for RAM free
 
-Package: luci-app-scriptmsg
-Version: 26.03.17-r000108
-Depends: libc, luci-base, sse-msg-static
-Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-scriptmsg
-SourceName: luci-app-scriptmsg
+Package: luci-app-scriptrun
+Version: 26.03.24-r123944
+Depends: libc, bash, sseconsole-static
+Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-scriptrun
+SourceName: luci-app-scriptrun
 Section: system
-SourceDateEpoch: 1773676824
+SourceDateEpoch: 1774327134
 Architecture: all
 Installed-Size: 30720
-Filename: luci-app-scriptmsg_26.03.17-r000108_all.ipk
-Size: 5655
-SHA256sum: 4d5214458be1532018f3544e064bbe3c1b9f627e9a0b64d669e8950c2dc4b4c9
-Description:  A LuCI support for scriptmsg
+Filename: luci-app-scriptrun_26.03.24-r123944_all.ipk
+Size: 5507
+SHA256sum: 5cc7aa3d035456e53d47f916a3e02fc958d12a1563d7ec8370ec3698b0e759cc
+Description:  A LuCI support for scriptrun
 
 Package: luci-app-socat
 Version: 2025.06.09-r2
@@ -324,22 +306,6 @@ Filename: luci-app-sunpanel_1.3.1-2_all.ipk
 Size: 1821619
 SHA256sum: 3b10d85b13ecb5fef8f13172dc95e912e039df5a131105f99637e333c40f7f17
 Description:  LuCI support for sunpanel
-
-Package: luci-app-unishare
-Version: 1.0.1-r1-r4
-Depends: libc, unishare, luci-lua-runtime
-Source: feeds/kiddin9/luci-app-unishare
-SourceName: luci-app-unishare
-Section: luci
-SourceDateEpoch: 1764863122
-URL: https://github.com/openwrt/luci
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 30720
-Filename: luci-app-unishare_1.0.1-r1-r4_all.ipk
-Size: 4286
-SHA256sum: db1c347b52e98ae60a062bd77e64eab4687ce9173653798115745ea24ea40efc
-Description:  LuCI for UniShare
 
 Package: luci-app-v2ray-server
 Version: 13-r13
@@ -802,20 +768,20 @@ SHA256sum: 88034a4b2d202aa4860837d86bdb6b78cd16f1715767862c2d90040563928de3
 Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
  ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 
-Package: sse-msg-static
-Version: 26.03.17-r000106
+Package: sseconsole-static
+Version: 26.03.24-r123943
 Depends: libc, libstdcpp6, bash
-Source: /home/runner/work/Actions-Packages/Actions-Packages/sse_msg-static
-SourceName: sse-msg-static
+Source: /home/runner/work/Actions-Packages/Actions-Packages/sseconsole-static
+SourceName: sseconsole-static
 Section: system
-SourceDateEpoch: 1773676824
+SourceDateEpoch: 1774327134
 URL: https://github.com/3wlh
 Maintainer: 3wlh <3wlh.lh@gmail.com>
 Architecture: x86_64
 Installed-Size: 51200
-Filename: sse-msg-static_26.03.17-r000106_x86_64.ipk
-Size: 16066
-SHA256sum: 755d71d132aaec53edb554c29f5a196c523885000f0785400ca5f8b09f288f66
+Filename: sseconsole-static_26.03.24-r123943_x86_64.ipk
+Size: 16082
+SHA256sum: cc76b144d3d442519ec3cbdce541ee76e022d11869e3ec9cc9f861dbdacae935
 Description:  Execute shell commands and push them to the web page in real time via SSE.
 
 Package: sub-static
