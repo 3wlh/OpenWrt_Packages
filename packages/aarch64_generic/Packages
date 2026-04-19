@@ -1,3 +1,21 @@
+Package: docker
+Version: 27.3.1-r1
+Depends: libc
+Source: feeds/packages/utils/docker
+SourceName: docker
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1776135906
+URL: https://www.docker.com/
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 26337280
+Filename: docker_27.3.1-r1_aarch64_generic.ipk
+Size: 8519375
+SHA256sum: ddb7543a585455e613c2eb681e9aa72df7f8fdfc4d9040dfc3dfb43084901be3
+Description:  The CLI used in the Docker CE and Docker EE products.
+
 Package: luci-app-argon-config
 Version: 25.306.51720~a833d72
 Depends: libc, luci-theme-argon
@@ -184,6 +202,22 @@ Filename: luci-app-sunpanel_1.3.1-2_all.ipk
 Size: 1821619
 SHA256sum: 3b10d85b13ecb5fef8f13172dc95e912e039df5a131105f99637e333c40f7f17
 Description:  LuCI support for sunpanel
+
+Package: luci-app-unishare
+Version: 1.0.1-r1-r4
+Depends: libc, unishare, luci-lua-runtime
+Source: feeds/kiddin9/luci-app-unishare
+SourceName: luci-app-unishare
+Section: luci
+SourceDateEpoch: 1764849818
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-unishare_1.0.1-r1-r4_all.ipk
+Size: 4282
+SHA256sum: dbbdaf285be1cf4382f71104de20e048bb29a6a3183ed5acc246762f611a6bdf
+Description:  LuCI for UniShare
 
 Package: luci-app-v2ray-server
 Version: 13-r13
