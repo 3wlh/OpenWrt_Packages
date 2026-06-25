@@ -1,0 +1,7 @@
+Package:openlist2 https://github.com/sbwml/luci-app-openlist2/releases/download/v4.2.2/openwrt-24.10-x86_64.tar.gz
+Package:nikki https://github.com/nikkinikki-org/OpenWrt-nikki/releases/download/v1.26.1/nikki_x86_64-openwrt-24.10.tar.gz
+Package:openclash https://github.com/3wlh/OpenWrt_Packages/releases/download/GitHub-Actions_luci-app-openclash-ninja/luci-app-openclash-ninja_0.47.028_all.ipk
+Package:ports-status https://github.com/3wlh/OpenWrt_Packages/releases/download/GitHub-Actions_ports-status/ports-status-24.10-x86_64_2026.03.25_121824.tar.gz
+Package:luci-app-napcatapi https://github.com/3wlh/OpenWrt_Packages/releases/download/GitHub-Actions_luci-app-napcatapi/luci-app-napcatapi-24.10-x86_64_2026.03.29_142930.tar.gz
+Package:luci-app-scriptrun https://github.com/3wlh/OpenWrt_Packages/releases/download/GitHub-Actions_luci-app-scriptrun/luci-app-scriptrun-24.10-x86_64_2026.03.29_142913.tar.gz
+Package:luci-app-mddns https://github.com/3wlh/OpenWrt_Packages/releases/download/GitHub-Actions_luci-app-mddns/luci-app-mddns_26.04.19-r224937_x86_64.ipk
