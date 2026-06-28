@@ -1,3 +1,21 @@
+Package: docker
+Version: 27.3.1-r1
+Depends: libc
+Source: feeds/packages/utils/docker
+SourceName: docker
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1782296812
+URL: https://www.docker.com/
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 26337280
+Filename: docker_27.3.1-r1_aarch64_generic.ipk
+Size: 8518783
+SHA256sum: 81580876aa74949fb3edf336c4d49d98c68bb4659497d2306d4def4226e2c550
+Description:  The CLI used in the Docker CE and Docker EE products.
+
 Package: luci-app-argon-config
 Version: 26.126.28706~6ac4a03
 Depends: libc, luci-theme-argon
