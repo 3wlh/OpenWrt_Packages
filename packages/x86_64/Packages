@@ -1,0 +1,659 @@
+Package: docker
+Version: 27.3.1-r1
+Depends: libc
+Source: feeds/packages/utils/docker
+SourceName: docker
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1785499038
+URL: https://www.docker.com/
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: x86_64
+Installed-Size: 27289600
+Filename: docker_27.3.1-r1_x86_64.ipk
+Size: 9337776
+SHA256sum: bbb7517ffc7cf51d80081879e56a30e0f2c5a7b10c72f38c4af93c7a8395c6c0
+Description:  The CLI used in the Docker CE and Docker EE products.
+
+Package: luci-app-argon-config
+Version: 26.126.28706~6ac4a03
+Depends: libc, luci-theme-argon
+Source: feeds/luci/applications/luci-app-argon-config
+SourceName: luci-app-argon-config
+Section: luci
+SourceDateEpoch: 1778054306
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-argon-config_26.126.28706~6ac4a03_all.ipk
+Size: 4262
+SHA256sum: f0edf223e56dc78f4d4711a72af16cfc00bca47345f0e19d8ed49f0857e6a1b2
+Description:  LuCI for Argon theme configuration
+
+Package: luci-app-homeproxy
+Version: 26.187.07809~9bce398
+Depends: libc, sing-box, firewall4, kmod-nft-tproxy, ucode-mod-digest
+Source: feeds/luci/applications/luci-app-homeproxy
+SourceName: luci-app-homeproxy
+Section: luci
+SourceDateEpoch: 1783303809
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1863680
+Filename: luci-app-homeproxy_26.187.07809~9bce398_all.ipk
+Size: 577751
+SHA256sum: e6936d5219968a5b6ce282855abd189f5c646b3d8b3b073b1a4517a3b7242d5d
+Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
+
+Package: luci-app-mddns-script
+Version: 26.08.02-r235715
+Depends: libc
+Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-mddns-script
+SourceName: luci-app-mddns-script
+Section: luci
+SourceDateEpoch: 1785686147
+URL: https://github.com/3wlh
+Maintainer: 3wlh <3wlh.lh@gmail.com>
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-mddns-script_26.08.02-r235715_all.ipk
+Size: 11047
+SHA256sum: aed046244c7fbbde3cfc3575d0c9ee36f16e066c957cb2b618a39a0f551ee6b7
+Description:  A lightweight multi-DDNS automatic update utility for OpenWrt.
+
+Package: luci-app-napcatapi
+Version: 26.06.29-r122440
+Depends: libc
+Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-napcatapi
+SourceName: luci-app-napcatapi
+Section: luci
+SourceDateEpoch: 1782635105
+URL: https://github.com/3wlh
+Maintainer: 3wlh <3wlh.lh@gmail.com>
+Architecture: x86_64
+Installed-Size: 5478400
+Filename: luci-app-napcatapi_26.06.29-r122440_x86_64.ipk
+Size: 5315051
+SHA256sum: 72e21745f70bd880445c3d97f13c7e464453a0d7c9d04ba709ad85a7adcfb45a
+Description:  NapCat Robot call the API.
+
+Package: luci-app-nikki
+Version: 1.26.1-r1
+Depends: libc, luci-base, nikki
+Source: /feed/luci-app-nikki
+SourceName: luci-app-nikki
+Section: luci
+SourceDateEpoch: 1781106150
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 61440
+Filename: luci-app-nikki_1.26.1-r1_all.ipk
+Size: 10516
+SHA256sum: d4327b7ad4d3c0d004f40fd99b6cb5c3196d7e3a5d6e3ba61031620dc0c46725
+Description:  LuCI Support for nikki
+
+Package: luci-app-openclash-ninja
+Version: 0.47.028
+Depends: libc, dnsmasq-full, bash, curl, ca-bundle, ip-full, ruby, ruby-yaml, ruby-json, ruby-zlib, ruby-digest, kmod-tun, unzip
+Source: feeds/base/luci-app-openclash-ninja/luci-app-openclash-ninja
+SourceName: luci-app-openclash-ninja
+Section: opt
+SourceDateEpoch: 1760891865
+Maintainer: vernesong
+Architecture: all
+Installed-Size: 26951680
+Filename: luci-app-openclash-ninja_0.47.028_all.ipk
+Size: 9664311
+SHA256sum: 201a87eea298f2bd6d789cf5dee7a78b9a337320cec2c5ef2bdb853ffd934cbd
+Description:  A LuCI support for clash
+
+Package: luci-app-openlist2
+Version: 1.0.2-r1
+Depends: libc, openlist2
+Source: /feed/luci-app-openlist2
+SourceName: luci-app-openlist2
+Section: luci
+SourceDateEpoch: 1778674242
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-openlist2_1.0.2-r1_all.ipk
+Size: 5411
+SHA256sum: 70b8ab95a25aeccb0e369d5cc435c0f60cd35a9583d514ff8d8db1669426ac42
+Description:  LuCI support for openlist
+
+Package: luci-app-ramfree
+Version: 26.126.28706~6ac4a03
+Depends: libc
+Source: feeds/luci/applications/luci-app-ramfree
+SourceName: luci-app-ramfree
+Section: luci
+SourceDateEpoch: 1778054306
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 10240
+Filename: luci-app-ramfree_26.126.28706~6ac4a03_all.ipk
+Size: 1512
+SHA256sum: 0a93eb519ad5f137ec873b9725dc98bf53a234b4d84ec2b48e9a720b1291c128
+Description:  LuCI support for RAM free
+
+Package: luci-app-scriptrun
+Version: 26.08.02-r220344
+Depends: libc, libstdcpp6, bash
+Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-scriptrun
+SourceName: luci-app-scriptrun
+Section: system
+SourceDateEpoch: 1785679287
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-scriptrun_26.08.02-r220344_all.ipk
+Size: 9219
+SHA256sum: 39508b100e6eea55aa58684763837229ccf756665ca6f23b07308c08f99dae9a
+Description:  A LuCI support for scriptrun
+
+Package: luci-app-socat
+Version: 2025.06.09-r2
+Depends: libc, socat, luci-lua-runtime
+Source: feeds/third_party/luci-app-socat
+SourceName: luci-app-socat
+Section: luci
+SourceDateEpoch: 1749455395
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-socat_2025.06.09-r2_all.ipk
+Size: 5325
+SHA256sum: bca76517c7b300b660e68982ee7de67d89a75142a3c5be862b635222e39d8a9e
+Description:  LuCI support for Socat
+
+Package: luci-app-store
+Version: 0.2.0-r3
+Depends: luci-lib-taskd (>=1.0.19), libc, curl, tar, libuci-lua, mount-utils, luci-lib-taskd, opkg
+Source: feeds/istore/luci/luci-app-store
+SourceName: luci-app-store
+Section: luci
+SourceDateEpoch: 1781673843
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 116137
+Filename: luci-app-store_0.2.0-r3_all.ipk
+Size: 117157
+SHA256sum: 6ff4652c789ec2e69a8d4804141ed2c56a5c1d94fe9e7941ec617c56e0e4dd66
+Description:  luci-app-store is a ipk/apk store developed by LinkEase team
+
+Package: luci-app-sunpanel
+Version: 1.3.1-2
+Depends: libc, sunpanel
+Source: /home/runner/work/openwrt-app-actions/openwrt-app-actions/apps/applications/luci-app-sunpanel
+SourceName: luci-app-sunpanel
+Section: luci
+SourceDateEpoch: 1708667176
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1820586
+Filename: luci-app-sunpanel_1.3.1-2_all.ipk
+Size: 1821619
+SHA256sum: 3b10d85b13ecb5fef8f13172dc95e912e039df5a131105f99637e333c40f7f17
+Description:  LuCI support for sunpanel
+
+Package: luci-app-unishare
+Version: 1.0.1-r1-r4
+Depends: libc, unishare, luci-lua-runtime
+Source: feeds/kiddin9/luci-app-unishare
+SourceName: luci-app-unishare
+Section: luci
+SourceDateEpoch: 1764863122
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-unishare_1.0.1-r1-r4_all.ipk
+Size: 4286
+SHA256sum: db1c347b52e98ae60a062bd77e64eab4687ce9173653798115745ea24ea40efc
+Description:  LuCI for UniShare
+
+Package: luci-app-v2ray-server
+Version: 13-r13
+Depends: libc, luci-compat, unzip, luci-lua-runtime
+Source: feeds/kiddin9/luci-app-v2ray-server
+SourceName: luci-app-v2ray-server
+Section: luci
+SourceDateEpoch: 1765640154
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 81920
+Filename: luci-app-v2ray-server_13-r13_all.ipk
+Size: 14884
+SHA256sum: 83af53ee0f875f5959d7e655ff327f130a84241d1278615f366229dc99d77cd3
+Description:  LuCI support for V2ray Server
+
+Package: luci-i18n-argon-config-zh-cn
+Version: 26.126.28706~6ac4a03
+Depends: libc, luci-app-argon-config
+Source: feeds/luci/applications/luci-app-argon-config
+SourceName: luci-app-argon-config
+Section: luci
+SourceDateEpoch: 1778054306
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-argon-config-zh-cn_26.126.28706~6ac4a03_all.ipk
+Size: 2384
+SHA256sum: fd6a40bf8d4b2a3c169be062d257c37993ea2a6f5dbbd603016f3affa69c1307
+Description:  Translation for luci-app-argon-config - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-homeproxy-zh-cn
+Version: 26.126.28706~6ac4a03
+Depends: libc, luci-app-homeproxy
+Source: feeds/luci/applications/luci-app-homeproxy
+SourceName: luci-app-homeproxy
+Section: luci
+SourceDateEpoch: 1778054306
+Architecture: all
+Installed-Size: 40960
+Filename: luci-i18n-homeproxy-zh-cn_26.126.28706~6ac4a03_all.ipk
+Size: 13636
+SHA256sum: 3861b3e677a3717d8ceba010140f56166acdb9190f1272e384581348d43099be
+Description:  Translation for luci-app-homeproxy - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-nikki-ru
+Version: 26.161.56550~95d41dd
+Depends: libc, luci-app-nikki
+Source: /feed/luci-app-nikki
+SourceName: luci-app-nikki
+Section: luci
+SourceDateEpoch: 1781106150
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-nikki-ru_26.161.56550~95d41dd_all.ipk
+Size: 5738
+SHA256sum: e664739ce9309fb9c733765ea702873bd173796f55d48a8a52163bd9a9f89caf
+Description:  Translation for luci-app-nikki - Русский (Russian)
+
+Package: luci-i18n-nikki-zh-cn
+Version: 26.161.56550~95d41dd
+Depends: libc, luci-app-nikki
+Source: /feed/luci-app-nikki
+SourceName: luci-app-nikki
+Section: luci
+SourceDateEpoch: 1781106150
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-nikki-zh-cn_26.161.56550~95d41dd_all.ipk
+Size: 5264
+SHA256sum: 1ce51f0f6b2134d870e577c280964875a9de176c3f4ff6cac677c81e02596f89
+Description:  Translation for luci-app-nikki - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-nikki-zh-tw
+Version: 26.161.56550~95d41dd
+Depends: libc, luci-app-nikki
+Source: /feed/luci-app-nikki
+SourceName: luci-app-nikki
+Section: luci
+SourceDateEpoch: 1781106150
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-nikki-zh-tw_26.161.56550~95d41dd_all.ipk
+Size: 5283
+SHA256sum: 4a4d51869d96dc978788a7c9604da95c200ad53efd42f2ab09c8e1094d13bedb
+Description:  Translation for luci-app-nikki - 正體中文 (Traditional Chinese)
+
+Package: luci-i18n-openlist2-zh-cn
+Version: 26.133.43842~a8c0dc8
+Depends: libc, luci-app-openlist2
+Source: /feed/luci-app-openlist2
+SourceName: luci-app-openlist2
+Section: luci
+SourceDateEpoch: 1778674242
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-openlist2-zh-cn_26.133.43842~a8c0dc8_all.ipk
+Size: 3065
+SHA256sum: 23fa78c4e4ca3b5a484b8f5e4c934732e8aeaf63052eaa49d676904757494cc6
+Description:  Translation for luci-app-openlist2 - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-ramfree-zh-cn
+Version: 26.126.28706~6ac4a03
+Depends: libc, luci-app-ramfree
+Source: feeds/luci/applications/luci-app-ramfree
+SourceName: luci-app-ramfree
+Section: luci
+SourceDateEpoch: 1778054306
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-ramfree-zh-cn_26.126.28706~6ac4a03_all.ipk
+Size: 1162
+SHA256sum: d92d98bfb776feabbdd34d773f613056a2aa7e764d3926e607543d0f7c9c8cdd
+Description:  Translation for luci-app-ramfree - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-socat-zh-cn
+Version: git-22.228.14902-37829b7
+Depends: libc, luci-app-socat
+Source: package/diy/luci-app-socat
+SourceName: luci-i18n-socat-zh-cn
+Section: luci
+SourceDateEpoch: 1660622902
+Architecture: all
+Installed-Size: 888
+Filename: luci-i18n-socat-zh-cn_git-22.228.14902-37829b7_all.ipk
+Size: 1745
+SHA256sum: 2a3592c1c43258501ff2188e2eae0bf7f5899278e09a8e43c9f955a9e2e9e996
+Description:  Translation for luci-app-socat - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-sunpanel-zh-cn
+Version: git-24.054.20776-4a344e6
+Depends: libc, luci-app-sunpanel
+Source: /home/runner/work/openwrt-app-actions/openwrt-app-actions/apps/applications/luci-app-sunpanel
+SourceName: luci-i18n-sunpanel-zh-cn
+Section: luci
+SourceDateEpoch: 1708667176
+Architecture: all
+Installed-Size: 566
+Filename: luci-i18n-sunpanel-zh-cn_git-24.054.20776-4a344e6_all.ipk
+Size: 1415
+SHA256sum: 10d4a3d105e0504f741bd6890f78b2e1b0eb0c19fe541c537f6257a6b1424ba7
+Description:  Translation for luci-app-sunpanel - 简体中文 (Chinese Simplified)
+
+Package: luci-lib-taskd
+Version: 1.0.25
+Depends: taskd (>=1.0.3), libc, luci-lib-xterm, taskd
+Source: feeds/store/luci/luci-lib-taskd
+SourceName: luci-lib-taskd
+Section: luci
+SourceDateEpoch: 1762328103
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 6521
+Filename: luci-lib-taskd_1.0.25_all.ipk
+Size: 7413
+SHA256sum: d1969e3824fac02e09a8129e227906ea2b6fdcf4b4d64144f054ee4cb608349a
+Description:  Task library
+
+Package: luci-lib-xterm
+Version: 4.18.0
+Depends: libc
+Source: feeds/store/luci/luci-lib-xterm
+SourceName: luci-lib-xterm
+License: MIT
+Section: luci
+SourceDateEpoch: 1697021058
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 77218
+Filename: luci-lib-xterm_4.18.0_all.ipk
+Size: 78114
+SHA256sum: dc0f83f15501ebd1eb6644dbcaf41fdf7fe73d4d82d2d582e0475872f16ef2d0
+Description:  Xterm.js library
+
+Package: luci-theme-argon
+Version: 2.4.3-r20250722
+Depends: libc, wget, jsonfilter
+Source: feeds/luci/themes/luci-theme-argon
+SourceName: luci-theme-argon
+Section: luci
+SourceDateEpoch: 1763113396
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 604160
+Filename: luci-theme-argon_2.4.3-r20250722_all.ipk
+Size: 398761
+SHA256sum: 3973becc59ad3e3ffe45d076318607d3d00f29f5672d8ed394ac0f999a04c1c6
+Description:  Argon Theme
+
+Package: mddns-aliyun-script
+Version: 26.08.02-r235715
+Depends: libc, luci-app-mddns-script
+Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-mddns-script
+SourceName: luci-app-mddns-script
+Section: net
+SourceDateEpoch: 1785686147
+URL: https://github.com/3wlh
+Maintainer: 3wlh <3wlh.lh@gmail.com>
+Architecture: all
+Installed-Size: 10240
+Filename: mddns-aliyun-script_26.08.02-r235715_all.ipk
+Size: 2867
+SHA256sum: 9318c9698eec25c6c27c57bbea61f5a306831d0eba92e8b060e6fb4f2e931f65
+Description:  DNS provider script for MDDNS - 阿里云 DNS (Aliyun)
+
+Package: mddns-cloudflare-script
+Version: 26.08.02-r235715
+Depends: libc, luci-app-mddns-script
+Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-mddns-script
+SourceName: luci-app-mddns-script
+Section: net
+SourceDateEpoch: 1785686147
+URL: https://github.com/3wlh
+Maintainer: 3wlh <3wlh.lh@gmail.com>
+Architecture: all
+Installed-Size: 10240
+Filename: mddns-cloudflare-script_26.08.02-r235715_all.ipk
+Size: 2494
+SHA256sum: f2b7f68c933b6308c0db572d2e33ab83df7bfcbb7629881b3e7f23412ffe6e8b
+Description:  DNS provider script for MDDNS - Cloudflare
+
+Package: mddns-dnshe-script
+Version: 26.08.02-r235715
+Depends: libc, luci-app-mddns-script
+Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-mddns-script
+SourceName: luci-app-mddns-script
+Section: net
+SourceDateEpoch: 1785686147
+URL: https://github.com/3wlh
+Maintainer: 3wlh <3wlh.lh@gmail.com>
+Architecture: all
+Installed-Size: 20480
+Filename: mddns-dnshe-script_26.08.02-r235715_all.ipk
+Size: 3979
+SHA256sum: 2df9d55b4ab017c6504c2d137b4ff0c593072a28a960d713d88a5df6d789fb1f
+Description:  DNS provider script for MDDNS - DNSHE
+
+Package: mddns-dnspod-script
+Version: 26.08.02-r235715
+Depends: libc, luci-app-mddns-script
+Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-mddns-script
+SourceName: luci-app-mddns-script
+Section: net
+SourceDateEpoch: 1785686147
+URL: https://github.com/3wlh
+Maintainer: 3wlh <3wlh.lh@gmail.com>
+Architecture: all
+Installed-Size: 10240
+Filename: mddns-dnspod-script_26.08.02-r235715_all.ipk
+Size: 2640
+SHA256sum: b515b678dec2660290dd2dc75b13fb6a3ba881af189302a6eb3c780a2aafc36a
+Description:  DNS provider script for MDDNS - DNSPod (腾讯云)
+
+Package: mddns-spaceship-script
+Version: 26.08.02-r235715
+Depends: libc, luci-app-mddns-script
+Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-mddns-script
+SourceName: luci-app-mddns-script
+Section: net
+SourceDateEpoch: 1785686147
+URL: https://github.com/3wlh
+Maintainer: 3wlh <3wlh.lh@gmail.com>
+Architecture: all
+Installed-Size: 10240
+Filename: mddns-spaceship-script_26.08.02-r235715_all.ipk
+Size: 2503
+SHA256sum: dafc959f52f0f69a744a51880989d317dd84b01c3256de7de2e55296015f0c5e
+Description:  DNS provider script for MDDNS - Spaceship
+
+Package: mihomo-alpha
+Version: 2026.06.10
+Depends: libc, ca-bundle, ip-full, kmod-inet-diag, kmod-tun
+Conflicts: mihomo-meta
+Provides: mihomo
+Alternatives: 300:/usr/bin/mihomo:/usr/libexec/mihomo
+Source: /feed/mihomo-alpha
+SourceName: mihomo-alpha
+License: GPL3.0+
+Section: net
+SourceDateEpoch: 1781106150
+URL: https://wiki.metacubex.one
+Maintainer: Joseph Mory <morytyann@gmail.com>
+Architecture: x86_64
+Installed-Size: 46786560
+Filename: mihomo-alpha_2026.06.10_x86_64.ipk
+Size: 17324639
+SHA256sum: a4741ccc226d5ecf7e555f99c7322ce627758060e16e694c8c564995c46d9097
+Description:  A rule based proxy in Go.
+
+Package: mihomo-meta
+Version: 1.19.27
+Depends: libc, ca-bundle, ip-full, kmod-inet-diag, kmod-tun
+Conflicts: mihomo-alpha
+Provides: mihomo
+Alternatives: 300:/usr/bin/mihomo:/usr/libexec/mihomo
+Source: /feed/mihomo-meta
+SourceName: mihomo-meta
+License: GPL3.0+
+Section: net
+SourceDateEpoch: 1781106150
+URL: https://wiki.metacubex.one
+Maintainer: Joseph Mory <morytyann@gmail.com>
+Architecture: x86_64
+Installed-Size: 46776320
+Filename: mihomo-meta_1.19.27_x86_64.ipk
+Size: 17319959
+SHA256sum: c754d475525f2c7b6499b398cf34f6372d2dd964d0fdc09f4bccd85057e1e8f7
+Description:  A rule based proxy in Go.
+
+Package: nikki
+Version: 2026.04.08-r1
+Depends: libc, ca-bundle, curl, yq, firewall4, ip-full, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, mihomo
+Source: /feed/nikki
+SourceName: nikki
+License: GPL3.0+
+Section: net
+SourceDateEpoch: 1781106150
+URL: https://github.com/nikkinikki-org
+Maintainer: Joseph Mory <morytyann@gmail.com>
+Architecture: x86_64
+Installed-Size: 307200
+Filename: nikki_2026.04.08-r1_x86_64.ipk
+Size: 53182
+SHA256sum: feef092ff423533ed9c20a5bef458180647e18ff3123df08ce37a8e816043fd6
+Description:  Transparent Proxy with Mihomo on OpenWrt.
+
+Package: openlist2
+Version: 4.2.4-r1
+Depends: libc, ca-bundle
+Source: /feed/openlist2
+SourceName: openlist2
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1784815305
+URL: https://openlist.team/
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: x86_64
+Installed-Size: 21626880
+Filename: openlist2_4.2.4-r1_x86_64.ipk
+Size: 21592115
+SHA256sum: 58ed2d7d7844fe15512225296d5d662d681c2e3282b95476de9b3205c472c3fe
+Description:  A file list program that supports multiple storage, powered by Gin and Solidjs.
+
+Package: ports-status
+Version: 26.03.25-r121851
+Depends: libc
+Source: /home/runner/work/Actions-Packages/Actions-Packages/ports-status
+SourceName: ports-status
+Section: admin
+SourceDateEpoch: 1774412181
+URL: https://github.com/3wlh
+Maintainer: 3wlh <3wlh.lh@gmail.com>
+Architecture: x86_64
+Installed-Size: 20480
+Filename: ports-status_26.03.25-r121851_x86_64.ipk
+Size: 3938
+SHA256sum: a0d00c3f98efbf0a13051e3e8a11ef8a17708502675fe6057c4e1a7ab3dcf880
+Description:  Status Port Overview (status/overview).
+
+Package: sseconsole-static
+Version: 26.03.29-r142944
+Depends: libc, libstdcpp6, bash
+Source: /home/runner/work/Actions-Packages/Actions-Packages/sseconsole-static
+SourceName: sseconsole-static
+Section: system
+SourceDateEpoch: 1774761152
+URL: https://github.com/3wlh
+Maintainer: 3wlh <3wlh.lh@gmail.com>
+Architecture: x86_64
+Installed-Size: 51200
+Filename: sseconsole-static_26.03.29-r142944_x86_64.ipk
+Size: 16070
+SHA256sum: 16266c94c66b9b7b4f4c88350ac501b0518bab4d44ca9f11596bd3d37438c1e5
+Description:  Execute shell commands and push them to the web page in real time via SSE.
+
+Package: sunpanel
+Version: 1.3.1-r8
+Depends: libc, ubus, uci, bash
+Source: feeds/kiddin9/sunpanel
+SourceName: sunpanel
+Section: net
+SourceDateEpoch: 1744764373
+URL: https://sun-panel-doc.enianteam.com/
+Architecture: x86_64
+Installed-Size: 24832000
+Filename: sunpanel_1.3.1-r8_x86_64.ipk
+Size: 9809661
+SHA256sum: 521174540fd45242590850e7b3e859d3ea4c678b0e473028a85c56d88b0eae95
+Description:  Server, NAS navigation panel, Homepage, Browser homepage.
+
+Package: taskd
+Version: 1.0.3-2
+Depends: libc, procd, script-utils, coreutils, coreutils-stty
+Source: feeds/istore/luci/taskd
+SourceName: taskd
+Section: utils
+SourceDateEpoch: 1781612406
+Maintainer: jjm2473 <jjm2473@gmail.com>
+Architecture: all
+Installed-Size: 1626
+Filename: taskd_1.0.3-2_all.ipk
+Size: 2384
+SHA256sum: 1e070d4e1e9a128ab28498ae784205cd221a1e3208ef0648473c706262de85d5
+Description:  Simple Task Manager based on procd
+
+Package: unishare
+Version: 1.1.2-r8
+Depends: libc, samba4-server, webdav2
+Source: feeds/kiddin9/unishare
+SourceName: unishare
+Section: net
+SourceDateEpoch: 1764949080
+Maintainer: jjm2473 <jjm2473@gmail.com>
+Architecture: all
+Installed-Size: 20480
+Filename: unishare_1.1.2-r8_all.ipk
+Size: 3390
+SHA256sum: ee993c420930da56550b6ba12c3060d5b9fe5c3254c379bd3bbe23987a70d6e5
+Description:  Configure samba, webdav (maybe more?) in one app
+
+Package: webdav2
+Version: 4.3.1-r4
+Depends: libc
+Source: feeds/kiddin9/webdav2
+SourceName: webdav2
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1744904379
+URL: https://github.com/hacdias/webdav
+Maintainer: jjm2473 <jjm2473@gmail.com>
+Architecture: x86_64
+Installed-Size: 10188800
+Filename: webdav2_4.3.1-r4_x86_64.ipk
+Size: 4093960
+SHA256sum: c6d89d9f8240f5492be0eeba2b26996b95b885d72efb86b4c69a6f362dac9691
+Description:  A Simple Go WebDAV server that supports acls.
+
