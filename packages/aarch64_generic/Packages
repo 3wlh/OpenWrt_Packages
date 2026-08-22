@@ -49,19 +49,19 @@ SHA256sum: e6936d5219968a5b6ce282855abd189f5c646b3d8b3b073b1a4517a3b7242d5d
 Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
 
 Package: luci-app-mddns-script
-Version: 26.08.18-r093526
+Version: 26.08.20-r023438
 Depends: libc
 Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-mddns-script
 SourceName: luci-app-mddns-script
 Section: luci
-SourceDateEpoch: 1787016714
+SourceDateEpoch: 1787164230
 URL: https://github.com/3wlh
 Maintainer: 3wlh <3wlh.lh@gmail.com>
 Architecture: all
 Installed-Size: 51200
-Filename: luci-app-mddns-script_26.08.18-r093526_all.ipk
-Size: 11519
-SHA256sum: d9e0f82cda8c67234ee634be7d39b46c6c21f3a917d12190a23520ab994e82b5
+Filename: luci-app-mddns-script_26.08.20-r023438_all.ipk
+Size: 12070
+SHA256sum: d660449e33d053c9b7944c67bc42489db9ad56f4dfa6616ee18980830bfaeb1d
 Description:  A lightweight multi-DDNS automatic update utility for OpenWrt.
 
 Package: luci-app-napcatapi
@@ -144,17 +144,17 @@ SHA256sum: 0a93eb519ad5f137ec873b9725dc98bf53a234b4d84ec2b48e9a720b1291c128
 Description:  LuCI support for RAM free
 
 Package: luci-app-scriptrun
-Version: 26.08.02-r220344
+Version: 26.08.20-r023419
 Depends: libc, libstdcpp6, bash
 Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-scriptrun
 SourceName: luci-app-scriptrun
 Section: system
-SourceDateEpoch: 1785679287
+SourceDateEpoch: 1787164230
 Architecture: all
 Installed-Size: 40960
-Filename: luci-app-scriptrun_26.08.02-r220344_all.ipk
-Size: 9219
-SHA256sum: 39508b100e6eea55aa58684763837229ccf756665ca6f23b07308c08f99dae9a
+Filename: luci-app-scriptrun_26.08.20-r023419_all.ipk
+Size: 10333
+SHA256sum: ffb5bc5a08df1c16aaf4e7537e86ea9c37d4829f4ea8d931da36fa417c5082da
 Description:  A LuCI support for scriptrun
 
 Package: luci-app-socat
@@ -409,83 +409,83 @@ SHA256sum: 3973becc59ad3e3ffe45d076318607d3d00f29f5672d8ed394ac0f999a04c1c6
 Description:  Argon Theme
 
 Package: mddns-aliyun-script
-Version: 26.08.18-r093526
+Version: 26.08.20-r023438
 Depends: libc, luci-app-mddns-script
 Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-mddns-script
 SourceName: luci-app-mddns-script
 Section: net
-SourceDateEpoch: 1787016714
+SourceDateEpoch: 1787164230
 URL: https://github.com/3wlh
 Maintainer: 3wlh <3wlh.lh@gmail.com>
 Architecture: all
 Installed-Size: 10240
-Filename: mddns-aliyun-script_26.08.18-r093526_all.ipk
-Size: 3263
-SHA256sum: 3fb04375ff5acd346d6b798fb784f22aa08aefe70d0ced5fdf00c62b93921916
+Filename: mddns-aliyun-script_26.08.20-r023438_all.ipk
+Size: 3262
+SHA256sum: 8faeccf797fbcec6052352764bfd46de10fb176ca9a14a1819ff19bd9ca2986d
 Description:  DNS provider script for MDDNS - 阿里云 DNS (Aliyun)
 
 Package: mddns-cloudflare-script
-Version: 26.08.18-r093526
+Version: 26.08.20-r023438
 Depends: libc, luci-app-mddns-script
 Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-mddns-script
 SourceName: luci-app-mddns-script
 Section: net
-SourceDateEpoch: 1787016714
+SourceDateEpoch: 1787164230
 URL: https://github.com/3wlh
 Maintainer: 3wlh <3wlh.lh@gmail.com>
 Architecture: all
 Installed-Size: 10240
-Filename: mddns-cloudflare-script_26.08.18-r093526_all.ipk
-Size: 2495
-SHA256sum: 497be563c90b68e561c5968e8370169665a91250430df2c85029202ea689a6f4
+Filename: mddns-cloudflare-script_26.08.20-r023438_all.ipk
+Size: 2488
+SHA256sum: a73033bfa99b9e1127a8a7e23c77f9ef8cb7b9fe03be831f1cf179c37c173952
 Description:  DNS provider script for MDDNS - Cloudflare
 
 Package: mddns-dnshe-script
-Version: 26.08.18-r093526
+Version: 26.08.20-r023438
 Depends: libc, luci-app-mddns-script
 Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-mddns-script
 SourceName: luci-app-mddns-script
 Section: net
-SourceDateEpoch: 1787016714
+SourceDateEpoch: 1787164230
 URL: https://github.com/3wlh
 Maintainer: 3wlh <3wlh.lh@gmail.com>
 Architecture: all
 Installed-Size: 20480
-Filename: mddns-dnshe-script_26.08.18-r093526_all.ipk
-Size: 3983
-SHA256sum: 7581f10f24248ce1348b298ded221fb82fd93a506c4530884946cf86e465dfe8
+Filename: mddns-dnshe-script_26.08.20-r023438_all.ipk
+Size: 3985
+SHA256sum: dde406f1740dd39836302d99cacbedc7340e3d4943f44b12ca63ddf47484cdd0
 Description:  DNS provider script for MDDNS - DNSHE
 
 Package: mddns-dnspod-script
-Version: 26.08.18-r093526
+Version: 26.08.20-r023438
 Depends: libc, luci-app-mddns-script
 Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-mddns-script
 SourceName: luci-app-mddns-script
 Section: net
-SourceDateEpoch: 1787016714
+SourceDateEpoch: 1787164230
 URL: https://github.com/3wlh
 Maintainer: 3wlh <3wlh.lh@gmail.com>
 Architecture: all
 Installed-Size: 20480
-Filename: mddns-dnspod-script_26.08.18-r093526_all.ipk
-Size: 3742
-SHA256sum: 7b1110feba9f6b842420f9456504a6964a7584860fbfbe17ec3e9ee1e84490be
+Filename: mddns-dnspod-script_26.08.20-r023438_all.ipk
+Size: 3743
+SHA256sum: 1f58c15b6d9979db3ec1fd35912301f7b1541763093d9111f12bfd4fbd57c247
 Description:  DNS provider script for MDDNS - DNSPod (腾讯云)
 
 Package: mddns-spaceship-script
-Version: 26.08.18-r093526
+Version: 26.08.20-r023438
 Depends: libc, luci-app-mddns-script
 Source: /home/runner/work/Actions-Packages/Actions-Packages/luci-app-mddns-script
 SourceName: luci-app-mddns-script
 Section: net
-SourceDateEpoch: 1787016714
+SourceDateEpoch: 1787164230
 URL: https://github.com/3wlh
 Maintainer: 3wlh <3wlh.lh@gmail.com>
 Architecture: all
 Installed-Size: 10240
-Filename: mddns-spaceship-script_26.08.18-r093526_all.ipk
-Size: 2504
-SHA256sum: 38f675741ac7d0cf1c500bae9d7efb79a71972987d9dca676cfe8f1bb4453a19
+Filename: mddns-spaceship-script_26.08.20-r023438_all.ipk
+Size: 2501
+SHA256sum: 6bb8406ad7dfa2b74d1df7ce09ad346c11b2d194c6cfe8e83f161ea2446eeb89
 Description:  DNS provider script for MDDNS - Spaceship
 
 Package: mihomo-alpha
