@@ -1,0 +1,13 @@
+Package:openlist2 https://github.com/sbwml/luci-app-openlist2/releases/download/v4.2.6/openwrt-24.10-aarch64_generic.tar.gz
+Package:nikki https://github.com/nikkinikki-org/OpenWrt-nikki/releases/download/v1.26.1/nikki_aarch64_generic-openwrt-24.10.tar.gz
+Package:openclash https://github.com/3wlh/OpenWrt_Packages/releases/download/GitHub-Actions_luci-app-openclash-ninja/luci-app-openclash-ninja_0.47.028_all.ipk
+Package:ports-status https://github.com/3wlh/OpenWrt_Packages/releases/download/GitHub-Actions_ports-status/ports-status-24.10-aarch64_generic_2026.03.25_121824.tar.gz
+Package:luci-app-napcatapi https://github.com/3wlh/OpenWrt_Packages/releases/download/GitHub-Actions_luci-app-napcatapi/luci-app-napcatapi_26.06.29-r122433_aarch64_generic.ipk
+Package:luci-app-scriptrun https://github.com/3wlh/OpenWrt_Packages/releases/download/GitHub-Actions_luci-app-scriptrun/luci-app-scriptrun_26.09.01-r121828_all.ipk
+Package:luci-app-mddns https://github.com/3wlh/OpenWrt_Packages/releases/download/GitHub-Actions_luci-app-mddns/luci-app-mddns_26.04.19-r225257_aarch64_generic.ipk
+Package:luci-app-mddns-script https://github.com/3wlh/OpenWrt_Packages/releases/download/GitHub-Actions_luci-app-mddns-script/luci-app-mddns-script_26.09.01-r121821_all.ipk
+Package:mddns-aliyun-script https://github.com/3wlh/OpenWrt_Packages/releases/download/GitHub-Actions_luci-app-mddns-script/mddns-aliyun-script_26.09.01-r121821_all.ipk
+Package:mddns-cloudflare-script https://github.com/3wlh/OpenWrt_Packages/releases/download/GitHub-Actions_luci-app-mddns-script/mddns-cloudflare-script_26.09.01-r121821_all.ipk
+Package:mddns-dnshe-script https://github.com/3wlh/OpenWrt_Packages/releases/download/GitHub-Actions_luci-app-mddns-script/mddns-dnshe-script_26.09.01-r121821_all.ipk
+Package:mddns-dnspod-script https://github.com/3wlh/OpenWrt_Packages/releases/download/GitHub-Actions_luci-app-mddns-script/mddns-dnspod-script_26.09.01-r121821_all.ipk
+Package:mddns-spaceship-script https://github.com/3wlh/OpenWrt_Packages/releases/download/GitHub-Actions_luci-app-mddns-script/mddns-spaceship-script_26.09.01-r121821_all.ipk
