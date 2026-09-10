@@ -1,0 +1,15 @@
+name: Actions_GitHub_Push_CNB
+on:
+  push:
+    branches: [main]
+  #schedule:
+    #- cron: "0 16 * * 0"
+  workflow_dispatch:
+  
+jobs:
+  job_push:
+    uses: 3wlh/Actions/.github/workflows/Call_GitHub_Push_CNB.yml@main
+    secrets: inherit
+    with:
+      pull_repo: "3wlh/OpenWrt_Packages"
+      push_repo: "3wlh/OpenWrt_Packages"
