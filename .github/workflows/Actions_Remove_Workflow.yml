@@ -1,0 +1,17 @@
+name: Actions Remove Workflow Runs
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: write   # 如果对方需要写内容（一般“清理运行记录”只需要 actions）
+  actions: write    # 允许操作 Actions（删除 workflow run 必要）
+
+jobs:
+  Call_Actions:
+    uses: 3wlh/Actions/.github/workflows/Call_Remove_Workflows.yml@main
+    secrets: inherit
+    with:
+      all: false
