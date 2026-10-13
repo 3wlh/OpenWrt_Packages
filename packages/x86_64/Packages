@@ -81,19 +81,19 @@ SHA256sum: 72e21745f70bd880445c3d97f13c7e464453a0d7c9d04ba709ad85a7adcfb45a
 Description:  NapCat Robot call the API.
 
 Package: luci-app-nikki
-Version: 1.26.1-r1
+Version: 1.26.2-r1
 Depends: libc, luci-base, nikki
 Source: /feed/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1781106150
+SourceDateEpoch: 1791624461
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 61440
-Filename: luci-app-nikki_1.26.1-r1_all.ipk
-Size: 10516
-SHA256sum: d4327b7ad4d3c0d004f40fd99b6cb5c3196d7e3a5d6e3ba61031620dc0c46725
+Filename: luci-app-nikki_1.26.2-r1_all.ipk
+Size: 10850
+SHA256sum: c2644b76c42535498f340e1ab0d9d2b40f2e60c2cff79534a18f6ec48fd58eb3
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash-ninja
@@ -264,45 +264,45 @@ SHA256sum: 3861b3e677a3717d8ceba010140f56166acdb9190f1272e384581348d43099be
 Description:  Translation for luci-app-homeproxy - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-nikki-ru
-Version: 26.161.56550~95d41dd
+Version: 26.283.34061~31339d5
 Depends: libc, luci-app-nikki
 Source: /feed/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1781106150
+SourceDateEpoch: 1791624461
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-ru_26.161.56550~95d41dd_all.ipk
-Size: 5738
-SHA256sum: e664739ce9309fb9c733765ea702873bd173796f55d48a8a52163bd9a9f89caf
+Filename: luci-i18n-nikki-ru_26.283.34061~31339d5_all.ipk
+Size: 5746
+SHA256sum: 42ad792e3a01c592f5fe2af098f39d063f95e9dfecd0edbf25def279db5eb7d4
 Description:  Translation for luci-app-nikki - Русский (Russian)
 
 Package: luci-i18n-nikki-zh-cn
-Version: 26.161.56550~95d41dd
+Version: 26.283.34061~31339d5
 Depends: libc, luci-app-nikki
 Source: /feed/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1781106150
+SourceDateEpoch: 1791624461
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-cn_26.161.56550~95d41dd_all.ipk
-Size: 5264
-SHA256sum: 1ce51f0f6b2134d870e577c280964875a9de176c3f4ff6cac677c81e02596f89
+Filename: luci-i18n-nikki-zh-cn_26.283.34061~31339d5_all.ipk
+Size: 5257
+SHA256sum: 4c9b97f3315d6f302311eff29e4be4c53634557c87e2abc85037e2b17c3cadea
 Description:  Translation for luci-app-nikki - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-nikki-zh-tw
-Version: 26.161.56550~95d41dd
+Version: 26.283.34061~31339d5
 Depends: libc, luci-app-nikki
 Source: /feed/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1781106150
+SourceDateEpoch: 1791624461
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-tw_26.161.56550~95d41dd_all.ipk
-Size: 5283
-SHA256sum: 4a4d51869d96dc978788a7c9604da95c200ad53efd42f2ab09c8e1094d13bedb
+Filename: luci-i18n-nikki-zh-tw_26.283.34061~31339d5_all.ipk
+Size: 5278
+SHA256sum: 2aa5a42e5e9c40a1d9c3ab866c7ad8b897418737686a3492606a58bece26b6dc
 Description:  Translation for luci-app-nikki - 正體中文 (Traditional Chinese)
 
 Package: luci-i18n-openlist2-zh-cn
@@ -489,7 +489,7 @@ SHA256sum: 5aaf981b1ca866f0e8a641921435389a7e745e7b2e8e9a3b758f60dc378a0071
 Description:  DNS provider script for MDDNS - Spaceship
 
 Package: mihomo-alpha
-Version: 2026.06.10
+Version: 2026.08.16
 Depends: libc, ca-bundle, ip-full, kmod-inet-diag, kmod-tun
 Conflicts: mihomo-meta
 Provides: mihomo
@@ -498,18 +498,18 @@ Source: /feed/mihomo-alpha
 SourceName: mihomo-alpha
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1781106150
+SourceDateEpoch: 1791624461
 URL: https://wiki.metacubex.one
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
-Installed-Size: 46786560
-Filename: mihomo-alpha_2026.06.10_x86_64.ipk
-Size: 17324639
-SHA256sum: a4741ccc226d5ecf7e555f99c7322ce627758060e16e694c8c564995c46d9097
+Installed-Size: 50135040
+Filename: mihomo-alpha_2026.08.16_x86_64.ipk
+Size: 18593866
+SHA256sum: 48272e05f9a39f28026f2da1a512e64c171876658c8f1a720b87a8ea7ac798eb
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
-Version: 1.19.27
+Version: 1.19.32
 Depends: libc, ca-bundle, ip-full, kmod-inet-diag, kmod-tun
 Conflicts: mihomo-alpha
 Provides: mihomo
@@ -518,31 +518,31 @@ Source: /feed/mihomo-meta
 SourceName: mihomo-meta
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1781106150
+SourceDateEpoch: 1791624461
 URL: https://wiki.metacubex.one
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
-Installed-Size: 46776320
-Filename: mihomo-meta_1.19.27_x86_64.ipk
-Size: 17319959
-SHA256sum: c754d475525f2c7b6499b398cf34f6372d2dd964d0fdc09f4bccd85057e1e8f7
+Installed-Size: 61153280
+Filename: mihomo-meta_1.19.32_x86_64.ipk
+Size: 22555338
+SHA256sum: 0ed7014f5a202b653dc5b4647ead7c3ea0bc19513642c69e67c131e2f6c9c4eb
 Description:  A rule based proxy in Go.
 
 Package: nikki
-Version: 2026.04.08-r1
+Version: 2026.10.10-r1
 Depends: libc, ca-bundle, curl, yq, firewall4, ip-full, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, mihomo
 Source: /feed/nikki
 SourceName: nikki
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1781106150
+SourceDateEpoch: 1791624461
 URL: https://github.com/nikkinikki-org
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 307200
-Filename: nikki_2026.04.08-r1_x86_64.ipk
-Size: 53182
-SHA256sum: feef092ff423533ed9c20a5bef458180647e18ff3123df08ce37a8e816043fd6
+Filename: nikki_2026.10.10-r1_x86_64.ipk
+Size: 53288
+SHA256sum: 07106dccb5667550c1dc6e84d88079b07a7b53a2252d1a7e56b82281c560f925
 Description:  Transparent Proxy with Mihomo on OpenWrt.
 
 Package: openlist2
