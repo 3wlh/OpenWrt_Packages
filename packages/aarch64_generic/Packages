@@ -546,20 +546,20 @@ SHA256sum: 6441354f36232591cb3e8595aa8d5882d9a0f1a84deabb894bcad69539786b93
 Description:  Transparent Proxy with Mihomo on OpenWrt.
 
 Package: openlist2
-Version: 4.2.8-r1
+Version: 4.2.9-r1
 Depends: libc, ca-bundle
 Source: /feed/openlist2
 SourceName: openlist2
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1792839770
+SourceDateEpoch: 1792908110
 URL: https://openlist.team/
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
 Installed-Size: 22784000
-Filename: openlist2_4.2.8-r1_aarch64_generic.ipk
-Size: 22740927
-SHA256sum: 1cc329a32d5a03f14f4448d8522d22a4f88aad4681ff329cba2a3423ea260c6b
+Filename: openlist2_4.2.9-r1_aarch64_generic.ipk
+Size: 22741574
+SHA256sum: db71e28f125da1b490ab47f3a4192448dae510284fd583250f32a2e9b3720e27
 Description:  A file list program that supports multiple storage, powered by Gin and Solidjs.
 
 Package: ports-status
