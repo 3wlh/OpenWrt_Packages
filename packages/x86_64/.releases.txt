@@ -1,0 +1,13 @@
+Package:openlist2 
+Package:nikki 
+Package:openclash 
+Package:ports-status https://github.com/3wlh/OpenWrt_Packages/releases/download/GitHub-Actions_ports-status/ports-status-24.10-x86_64_2026.03.25_121824.tar.gz
+Package:luci-app-napcatapi 
+Package:luci-app-scriptrun 
+Package:luci-app-mddns https://github.com/3wlh/OpenWrt_Packages/releases/download/GitHub-Actions_luci-app-mddns/luci-app-mddns_26.04.19-r224937_x86_64.ipk
+Package:luci-app-mddns-script 
+Package:mddns-aliyun-script 
+Package:mddns-cloudflare-script 
+Package:mddns-dnshe-script 
+Package:mddns-dnspod-script 
+Package:mddns-spaceship-script 
